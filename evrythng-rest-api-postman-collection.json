@@ -1,0 +1,5046 @@
+{
+    "id": "22e9b8f53fe79d7ad2680976a2d11536",
+    "name": "EVRYTHNG REST API",
+    "description": null,
+    "auth": null,
+    "events": null,
+    "variables": [],
+    "order": [],
+    "folders_order": [],
+    "folders": [],
+    "requests": [
+        {
+            "id": "5e59a4253b225e7b7f6adba51433a996",
+            "name": "Read key access information",
+            "url": "http:\/\/api.evrythng.com\/\/access",
+            "description": "Read key access information for the authenticating key.",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "22e9b8f53fe79d7ad2680976a2d11536",
+            "rawModeData": ""
+        },
+        {
+            "id": "a9e2969ccbf85c8d012a2a76fe149619",
+            "name": "Create a new access",
+            "url": "http:\/\/api.evrythng.com\/\/accesses",
+            "description": "Create a new access for another Application User.",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "post",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "No Name",
+                    "description": "",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "22e9b8f53fe79d7ad2680976a2d11536",
+            "rawModeData": ""
+        },
+        {
+            "id": "736b6f7e66dc2b8586ae44dd3f774e90",
+            "name": "Read all accesses",
+            "url": "http:\/\/api.evrythng.com\/\/accesses",
+            "description": "Read an Application User's available acesses.",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "22e9b8f53fe79d7ad2680976a2d11536",
+            "rawModeData": ""
+        },
+        {
+            "id": "37a01f10158106c179c3cd71cf6dff69",
+            "name": "Delete an access",
+            "url": "http:\/\/api.evrythng.com\/\/accesses\/{accessId}",
+            "description": "Delete an existing Application User access to revoke it. Either the granting or receiving user can do this.",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "delete",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "No Name",
+                    "description": "",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "22e9b8f53fe79d7ad2680976a2d11536",
+            "rawModeData": ""
+        },
+        {
+            "id": "24bed2af494a050421e29b15d3a20c9d",
+            "name": "Read all accounts",
+            "url": "http:\/\/api.evrythng.com\/\/accounts",
+            "description": "Get all accounts visible to an Operator with their API key.",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "22e9b8f53fe79d7ad2680976a2d11536",
+            "rawModeData": ""
+        },
+        {
+            "id": "96bfa9589e4cfb3b04096875b9f67c52",
+            "name": "Read an account",
+            "url": "http:\/\/api.evrythng.com\/\/accounts\/{accountId}",
+            "description": "Read a single account by ID.",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "No Name",
+                    "description": "",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "22e9b8f53fe79d7ad2680976a2d11536",
+            "rawModeData": ""
+        },
+        {
+            "id": "15a335668cceb09220a2271d719ce5af",
+            "name": "Update an account",
+            "url": "http:\/\/api.evrythng.com\/\/accounts\/{accountId}",
+            "description": "Update an account with new user information, such as new `customFields`.",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "put",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "No Name",
+                    "description": "",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "22e9b8f53fe79d7ad2680976a2d11536",
+            "rawModeData": ""
+        },
+        {
+            "id": "0cb73dfade64e7e0927cc3de786f9112",
+            "name": "Read account accesses",
+            "url": "http:\/\/api.evrythng.com\/\/accounts\/{accountId}\/accesses",
+            "description": "Read an account's access information and current role.",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "No Name",
+                    "description": "",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "22e9b8f53fe79d7ad2680976a2d11536",
+            "rawModeData": ""
+        },
+        {
+            "id": "5a2ce1b81b0805d3281426dfe2ca8d7e",
+            "name": "Read an account access",
+            "url": "http:\/\/api.evrythng.com\/\/accounts\/{accountId}\/accesses\/{accessId}",
+            "description": "Read an account access by ID.",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "No Name",
+                    "description": "",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "22e9b8f53fe79d7ad2680976a2d11536",
+            "rawModeData": ""
+        },
+        {
+            "id": "3daa90f79fa797ee354ce66bc2aec550",
+            "name": "Update an account access",
+            "url": "http:\/\/api.evrythng.com\/\/accounts\/{accountId}\/accesses\/{accessId}",
+            "description": "Update an account access to set a new role.",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "put",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "No Name",
+                    "description": "",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "22e9b8f53fe79d7ad2680976a2d11536",
+            "rawModeData": ""
+        },
+        {
+            "id": "7b0eee64e82b7f27e485f86805b7e687",
+            "name": "Read account short domains",
+            "url": "http:\/\/api.evrythng.com\/\/accounts\/{accountId}\/shortDomains",
+            "description": "Read all short domains available to an account.",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "No Name",
+                    "description": "",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "22e9b8f53fe79d7ad2680976a2d11536",
+            "rawModeData": ""
+        },
+        {
+            "id": "9d0e55241faeb286ed1f1a76050fc58a",
+            "name": "View rate limit information",
+            "url": "http:\/\/api.evrythng.com\/\/rateLimits",
+            "description": "View rate limit information for the accounts.",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "22e9b8f53fe79d7ad2680976a2d11536",
+            "rawModeData": ""
+        },
+        {
+            "id": "b0a48638ae0af47d98a47d4bd456eeeb",
+            "name": "Create an action type",
+            "url": "http:\/\/api.evrythng.com\/\/actions",
+            "description": "Create a new action type.",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "post",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "No Name",
+                    "description": "",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "22e9b8f53fe79d7ad2680976a2d11536",
+            "rawModeData": ""
+        },
+        {
+            "id": "8651dccaadd290ea760e4d74962caaf8",
+            "name": "Read all action types",
+            "url": "http:\/\/api.evrythng.com\/\/actions",
+            "description": "Read all action types.  The action types are returned with the built-in types coming first, followed by the custom types sorted by descending creation date.",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "22e9b8f53fe79d7ad2680976a2d11536",
+            "rawModeData": ""
+        },
+        {
+            "id": "4c3f3f1543b641ec23134fe8076b4e86",
+            "name": "Create an action",
+            "url": "http:\/\/api.evrythng.com\/\/actions\/{actionType}",
+            "description": "Create a new action of the specified type. `all` can be specified as the `actionType`, in which case the specified action type must be supplied in the payload. If no location is specified, the Platform will automatically determine the location based on the IP address of the device who has issued it, along with a country code that is returned in the context object.",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "post",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "No Name",
+                    "description": "",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "22e9b8f53fe79d7ad2680976a2d11536",
+            "rawModeData": ""
+        },
+        {
+            "id": "446e901044d88c7c35d61b20b2846ff4",
+            "name": "Read all actions of a type",
+            "url": "http:\/\/api.evrythng.com\/\/actions\/{actionType}",
+            "description": "Read all actions of the specified `actionType` visible to the authenticating API key. `all` can be used as the `actionType` to view actions of all types.",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "No Name",
+                    "description": "",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "22e9b8f53fe79d7ad2680976a2d11536",
+            "rawModeData": ""
+        },
+        {
+            "id": "39682fa244a9a237659a2564ac0fb141",
+            "name": "Update an action type",
+            "url": "http:\/\/api.evrythng.com\/\/actions\/{actionType}",
+            "description": "Update an action type with new metadata.",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "put",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "No Name",
+                    "description": "",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "22e9b8f53fe79d7ad2680976a2d11536",
+            "rawModeData": ""
+        },
+        {
+            "id": "d7d1b34f73b7f197cae3e072dfc3f453",
+            "name": "Delete an action type",
+            "url": "http:\/\/api.evrythng.com\/\/actions\/{actionType}",
+            "description": "Delete an action type.",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "delete",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "No Name",
+                    "description": "",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "22e9b8f53fe79d7ad2680976a2d11536",
+            "rawModeData": ""
+        },
+        {
+            "id": "858c48c0b4a3eee20e8e3d41add643f2",
+            "name": "Read an action",
+            "url": "http:\/\/api.evrythng.com\/\/actions\/{actionType}\/{actionId}",
+            "description": "Read a single action by ID. You can use `all` as an `actionType` to read actions of unknown type.",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "No Name",
+                    "description": "",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "22e9b8f53fe79d7ad2680976a2d11536",
+            "rawModeData": ""
+        },
+        {
+            "id": "8add4c9da4a8efecf7a066fb3cbbc151",
+            "name": "Delete an action",
+            "url": "http:\/\/api.evrythng.com\/\/actions\/{actionType}\/{actionId}",
+            "description": "Delete an action by ID.",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "delete",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "No Name",
+                    "description": "",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "22e9b8f53fe79d7ad2680976a2d11536",
+            "rawModeData": ""
+        },
+        {
+            "id": "cfc77618335f3fdb0e7e078a98206b27",
+            "name": "Read an action with context",
+            "url": "http:\/\/api.evrythng.com\/\/actions\/{actionType}\/{actionId}?context=true",
+            "description": "Read a single action by ID with context. The `?context=true` query parameter can be used to include the context field in the action read.",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "No Name",
+                    "description": "",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "22e9b8f53fe79d7ad2680976a2d11536",
+            "rawModeData": ""
+        },
+        {
+            "id": "92350fba45f95d14fa73e83753598283",
+            "name": "Create an application",
+            "url": "http:\/\/api.evrythng.com\/\/projects\/{projectId}\/applications",
+            "description": "Create an application within a project. The object returned contains the `appApiKey` parameter, which is an Application API key that must be used within an external application to issue calls to the API. However, because this API key can be hard coded within external applications (e.g. mobile\/JS) and is visible to anyone, it can be used only for a very limited set of operations (create users, read a product, send actions etc.).",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "post",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "No Name",
+                    "description": "",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "22e9b8f53fe79d7ad2680976a2d11536",
+            "rawModeData": ""
+        },
+        {
+            "id": "e37869931019e7ac9951ba9b2f4e754d",
+            "name": "Read all applications",
+            "url": "http:\/\/api.evrythng.com\/\/projects\/{projectId}\/applications",
+            "description": "Read all applications inside the specified project.",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "No Name",
+                    "description": "",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "22e9b8f53fe79d7ad2680976a2d11536",
+            "rawModeData": ""
+        },
+        {
+            "id": "eb3914893ad0a59ee5dc2c5f8167446b",
+            "name": "Read an application",
+            "url": "http:\/\/api.evrythng.com\/\/projects\/{projectId}\/applications\/{applicationId}",
+            "description": "Read an application by `applicationId` in the project specified by `projectId`.",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "No Name",
+                    "description": "",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "22e9b8f53fe79d7ad2680976a2d11536",
+            "rawModeData": ""
+        },
+        {
+            "id": "2b6ac51241e198f55b4bbbb91b58844e",
+            "name": "Update an application",
+            "url": "http:\/\/api.evrythng.com\/\/projects\/{projectId}\/applications\/{applicationId}",
+            "description": "Update an application by `applicationId`.",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "put",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "No Name",
+                    "description": "",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "22e9b8f53fe79d7ad2680976a2d11536",
+            "rawModeData": ""
+        },
+        {
+            "id": "0c9288275a801424be1cd89b09c1dfd0",
+            "name": "Delete an application",
+            "url": "http:\/\/api.evrythng.com\/\/projects\/{projectId}\/applications\/{applicationId}",
+            "description": "Delete an application by `applicationId`.",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "delete",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "No Name",
+                    "description": "",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "22e9b8f53fe79d7ad2680976a2d11536",
+            "rawModeData": ""
+        },
+        {
+            "id": "581a6ca8f00c0efe9dd85e67999fef09",
+            "name": "Read self application",
+            "url": "http:\/\/api.evrythng.com\/\/applications\/me",
+            "description": "Read the self application of the authenticating Trusted App API Key.",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "22e9b8f53fe79d7ad2680976a2d11536",
+            "rawModeData": ""
+        },
+        {
+            "id": "1bcfe527fc0d0cfbea3ea4cafc3bad0d",
+            "name": "Update self application",
+            "url": "http:\/\/api.evrythng.com\/\/applications\/me",
+            "description": "Update the self application of the authenticating Trusted App API Key.",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "put",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "No Name",
+                    "description": "",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "22e9b8f53fe79d7ad2680976a2d11536",
+            "rawModeData": ""
+        },
+        {
+            "id": "e972d6a60abd6dbc4b6cc4087e40ea26",
+            "name": "Read Trusted App API Key",
+            "url": "http:\/\/api.evrythng.com\/\/projects\/{projectId}\/applications\/{applicationId}\/secretKey",
+            "description": "Read the Trusted Application API key for the application with `applicationId`. This is a secret key that has access to more endpoints than the standard Application API key.",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "No Name",
+                    "description": "",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "22e9b8f53fe79d7ad2680976a2d11536",
+            "rawModeData": ""
+        },
+        {
+            "id": "7bc93207ae4d0f13373af4b037039d1f",
+            "name": "Create an Application User",
+            "url": "http:\/\/api.evrythng.com\/\/auth\/evrythng\/users",
+            "description": "Create a new unactivated Application User with a unique email address. The response contains an `activationCode` that must be returned to the API (See 'Activate an Application User') before it can access the API. This gives the client application an opportunity to ensure the email address has been validated.",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "post",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "No Name",
+                    "description": "",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "22e9b8f53fe79d7ad2680976a2d11536",
+            "rawModeData": ""
+        },
+        {
+            "id": "6ab72644e4021ee4ee3c82894019803a",
+            "name": "Activate an Application User",
+            "url": "http:\/\/api.evrythng.com\/\/auth\/evrythng\/users\/{evrythngUser}\/validate",
+            "description": "Activate a new Application User using the `activationCode` provided in the 'Create an Application User' step.",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "post",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "No Name",
+                    "description": "",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "22e9b8f53fe79d7ad2680976a2d11536",
+            "rawModeData": ""
+        },
+        {
+            "id": "64f0678fc4d6c4a2f5596d9f21f521e8",
+            "name": "Create an anonymous user",
+            "url": "http:\/\/api.evrythng.com\/\/auth\/evrythng\/users?anonymous=true",
+            "description": "Create an anonymous Application User. These users are not associated with a real person, and are useful for tracking anonymous interactions.",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "post",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "No Name",
+                    "description": "",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "22e9b8f53fe79d7ad2680976a2d11536",
+            "rawModeData": ""
+        },
+        {
+            "id": "0942339aefc28df5812ddbd3a2d36a41",
+            "name": "Read all Application Users",
+            "url": "http:\/\/api.evrythng.com\/\/users",
+            "description": "Read all visible application users.",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "22e9b8f53fe79d7ad2680976a2d11536",
+            "rawModeData": ""
+        },
+        {
+            "id": "1187b0bc5a4748f8e5df0ddd39c4aa43",
+            "name": "Read an Application User",
+            "url": "http:\/\/api.evrythng.com\/\/users\/{evrythngUser}",
+            "description": "Read a single Application User but their `evrythngUser` ID.",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "No Name",
+                    "description": "",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "22e9b8f53fe79d7ad2680976a2d11536",
+            "rawModeData": ""
+        },
+        {
+            "id": "2117a8529e0bb557bdf35ce513d3d1e2",
+            "name": "Update an Application User",
+            "url": "http:\/\/api.evrythng.com\/\/users\/{evrythngUser}",
+            "description": "Update an existing Application User by their `evrythngUser` ID. Authorised Application Users can modify their own data (including the password) using their API key.",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "put",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "No Name",
+                    "description": "",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "22e9b8f53fe79d7ad2680976a2d11536",
+            "rawModeData": ""
+        },
+        {
+            "id": "25049f562a131dd1dc4d31752e4c8766",
+            "name": "Delete an Application User",
+            "url": "http:\/\/api.evrythng.com\/\/users\/{evrythngUser}",
+            "description": "Delete an Application User by its `evrythngUser` ID.",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "delete",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "No Name",
+                    "description": "",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "22e9b8f53fe79d7ad2680976a2d11536",
+            "rawModeData": ""
+        },
+        {
+            "id": "7bcd0f5b0a751245bd2c1d86537353fb",
+            "name": "Log an Application User out",
+            "url": "http:\/\/api.evrythng.com\/\/auth\/all\/logout",
+            "description": "Log an Application User out and invalidate their Application User API key.",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "post",
+            "pathVariableData": [],
+            "queryParams": [],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "22e9b8f53fe79d7ad2680976a2d11536",
+            "rawModeData": ""
+        },
+        {
+            "id": "0678786e558ed7484099f812516fd9ff",
+            "name": "Log an Application User in",
+            "url": "http:\/\/api.evrythng.com\/\/auth\/evrythng",
+            "description": "Authenticate (log in) an existing user using their original `email` and `password` used at creation time.",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "post",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "No Name",
+                    "description": "",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "22e9b8f53fe79d7ad2680976a2d11536",
+            "rawModeData": ""
+        },
+        {
+            "id": "fdefea7e0ca4298555a54597fb7b0391",
+            "name": "Log In with Access Info",
+            "url": "http:\/\/api.evrythng.com\/\/users\/login",
+            "description": "Log an Application User in and obtain access details.",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "post",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "No Name",
+                    "description": "",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "22e9b8f53fe79d7ad2680976a2d11536",
+            "rawModeData": ""
+        },
+        {
+            "id": "44aa023776957a600d5534900b7ce3e0",
+            "name": "Create a batch",
+            "url": "http:\/\/api.evrythng.com\/\/batches",
+            "description": "Create a batch.",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "post",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "No Name",
+                    "description": "",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "22e9b8f53fe79d7ad2680976a2d11536",
+            "rawModeData": ""
+        },
+        {
+            "id": "16506759f960ea3549122d02ea00abfc",
+            "name": "Read all batches",
+            "url": "http:\/\/api.evrythng.com\/\/batches",
+            "description": "Read all available batches. Use a filter to retrieve a subset of all batches created.",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "22e9b8f53fe79d7ad2680976a2d11536",
+            "rawModeData": ""
+        },
+        {
+            "id": "b262feef19bb11d021edec713e9ced52",
+            "name": "Read a batch",
+            "url": "http:\/\/api.evrythng.com\/\/batches\/{batchId}",
+            "description": "Read a single batch by ID.",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "No Name",
+                    "description": "",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "22e9b8f53fe79d7ad2680976a2d11536",
+            "rawModeData": ""
+        },
+        {
+            "id": "e2b7233def255294410ce1ca93c151d2",
+            "name": "Update a batch",
+            "url": "http:\/\/api.evrythng.com\/\/batches\/{batchId}",
+            "description": "Update a batch by ID. Nested fields such as `tags` are replaced with the new value in the payload.",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "put",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "No Name",
+                    "description": "",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "22e9b8f53fe79d7ad2680976a2d11536",
+            "rawModeData": ""
+        },
+        {
+            "id": "1cfe1d2bf24d151b2868dbbec63ba6c8",
+            "name": "Delete a batch",
+            "url": "http:\/\/api.evrythng.com\/\/batches\/{batchId}",
+            "description": "Delete a batch by ID. Deleting the batch will not delete the tasks and Thngs in it, which must be deleted separately.",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "delete",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "No Name",
+                    "description": "",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "22e9b8f53fe79d7ad2680976a2d11536",
+            "rawModeData": ""
+        },
+        {
+            "id": "da3d61c677f804ffba66ad9321ba6a7c",
+            "name": "Read all connectors",
+            "url": "http:\/\/api.evrythng.com\/\/connectors",
+            "description": "Read a list of connectors that are visible to the Application User authenticating this request with their Application User API Key.",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "22e9b8f53fe79d7ad2680976a2d11536",
+            "rawModeData": ""
+        },
+        {
+            "id": "b0142b9490a54e7bd23cc20d3f70a3a5",
+            "name": "Read a connector",
+            "url": "http:\/\/api.evrythng.com\/\/connectors\/{connectorName}",
+            "description": "Read a single connector by name as the authenticating Application User.",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "No Name",
+                    "description": "",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "22e9b8f53fe79d7ad2680976a2d11536",
+            "rawModeData": ""
+        },
+        {
+            "id": "df658e7fd5e86c14ec8cb4fb6f57044b",
+            "name": "Authenticate through connector",
+            "url": "http:\/\/api.evrythng.com\/\/connectors\/{connectorName}\/auth",
+            "description": "Authenticate the connector service through redirection.",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "No Name",
+                    "description": "",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "22e9b8f53fe79d7ad2680976a2d11536",
+            "rawModeData": ""
+        },
+        {
+            "id": "502b3f9df83132be5b637a7c36d17e78",
+            "name": "Authenticate with an existing token",
+            "url": "http:\/\/api.evrythng.com\/\/connectors\/{connectorName}\/auth\/token",
+            "description": "Authenticate with the connector service using an existing OAuth token.",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "post",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "No Name",
+                    "description": "",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "22e9b8f53fe79d7ad2680976a2d11536",
+            "rawModeData": ""
+        },
+        {
+            "id": "0debbc6bd2451d1b08d5f107dc47290e",
+            "name": "Create a connector",
+            "url": "http:\/\/api.evrythng.com\/\/projects\/{projectId}\/applications\/{applicationId}\/connectors",
+            "description": "To enable a third party integration for a specific application, `POST` a connector model describing the configuration of the connection with the third party cloud. Only the Operator can enable connectors in an application. For Nest connectors, the `auth` credentials can be found in the Nest Developers console.",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "post",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "No Name",
+                    "description": "",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "22e9b8f53fe79d7ad2680976a2d11536",
+            "rawModeData": ""
+        },
+        {
+            "id": "a59b14d171264580e3435e3a098b3ae4",
+            "name": "Read all connectors",
+            "url": "http:\/\/api.evrythng.com\/\/projects\/{projectId}\/applications\/{applicationId}\/connectors",
+            "description": "Read all connectors in an application.",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "No Name",
+                    "description": "",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "22e9b8f53fe79d7ad2680976a2d11536",
+            "rawModeData": ""
+        },
+        {
+            "id": "354dee41e4c361f96f2226b2bd3a91a9",
+            "name": "Read an app connector",
+            "url": "http:\/\/api.evrythng.com\/\/projects\/{projectId}\/applications\/{applicationId}\/connectors\/{connectorName}",
+            "description": "Read a single connector by name within an application.",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "No Name",
+                    "description": "",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "22e9b8f53fe79d7ad2680976a2d11536",
+            "rawModeData": ""
+        },
+        {
+            "id": "5cdc1089c5565ebfe5c4769a71f9bb9f",
+            "name": "Update a connector",
+            "url": "http:\/\/api.evrythng.com\/\/projects\/{projectId}\/applications\/{applicationId}\/connectors\/{connectorName}",
+            "description": "Update a single connector by name. Not all the fields of a connector can be updated. If the authentication parameters changed, this is considered to be a new connector and it must to be created separately as a new resource.",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "put",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "No Name",
+                    "description": "",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "22e9b8f53fe79d7ad2680976a2d11536",
+            "rawModeData": ""
+        },
+        {
+            "id": "058a774bb67bc85a1957859986030c50",
+            "name": "Delete a connector",
+            "url": "http:\/\/api.evrythng.com\/\/projects\/{projectId}\/applications\/{applicationId}\/connectors\/{connectorName}",
+            "description": "Delete a single connector by name. Deleting a connector for an application will delete all the Thngs that were imported from the third party cloud.",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "delete",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "No Name",
+                    "description": "",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "22e9b8f53fe79d7ad2680976a2d11536",
+            "rawModeData": ""
+        },
+        {
+            "id": "55c979049e7026f3106ada62315f7ff4",
+            "name": "Create a collection",
+            "url": "http:\/\/api.evrythng.com\/\/collections",
+            "description": "Create a new collection. Resources can then be added to that collection with further `PUT` requests specifying the collection ID.",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "post",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "No Name",
+                    "description": "",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "22e9b8f53fe79d7ad2680976a2d11536",
+            "rawModeData": ""
+        },
+        {
+            "id": "7bc475932ddbf986598418422fd24dfd",
+            "name": "Read all collections",
+            "url": "http:\/\/api.evrythng.com\/\/collections",
+            "description": "Read all collections available in an account.",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "22e9b8f53fe79d7ad2680976a2d11536",
+            "rawModeData": ""
+        },
+        {
+            "id": "dacbf3ac4b8d8ce751f22a550070a0c3",
+            "name": "Read a collection",
+            "url": "http:\/\/api.evrythng.com\/\/collections\/{collectionId}",
+            "description": "Read a single collection by ID.",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "No Name",
+                    "description": "",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "22e9b8f53fe79d7ad2680976a2d11536",
+            "rawModeData": ""
+        },
+        {
+            "id": "3594e03eb990bf6f33c10023e994a5f3",
+            "name": "Update a collection",
+            "url": "http:\/\/api.evrythng.com\/\/collections\/{collectionId}",
+            "description": "Update a collection by ID. Nested fields such as `tags` are replaced with the new version in the payload. There is a limit of 10,000 Thngs updated per API call on collections. If your collection contains more than 10,000 elements you should consider an iterative solution.",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "put",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "No Name",
+                    "description": "",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "22e9b8f53fe79d7ad2680976a2d11536",
+            "rawModeData": ""
+        },
+        {
+            "id": "223903ff13ea59d5945463cc126f9628",
+            "name": "Delete a collection",
+            "url": "http:\/\/api.evrythng.com\/\/collections\/{collectionId}",
+            "description": "Delete a collection by ID.",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "delete",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "No Name",
+                    "description": "",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "22e9b8f53fe79d7ad2680976a2d11536",
+            "rawModeData": ""
+        },
+        {
+            "id": "d2ed6f1a6fee920fd0e5a841abab9431",
+            "name": "Create a collection action",
+            "url": "http:\/\/api.evrythng.com\/\/collections\/{collectionId}\/actions\/{actionType}",
+            "description": "Create an action on a collection.",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "post",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "No Name",
+                    "description": "",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "22e9b8f53fe79d7ad2680976a2d11536",
+            "rawModeData": ""
+        },
+        {
+            "id": "d7362901a3984e857329c0bef7a46310",
+            "name": "Read all collection actions",
+            "url": "http:\/\/api.evrythng.com\/\/collections\/{collectionId}\/actions\/{actionType}",
+            "description": "Read all actions on a collection.",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "No Name",
+                    "description": "",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "22e9b8f53fe79d7ad2680976a2d11536",
+            "rawModeData": ""
+        },
+        {
+            "id": "27bb5858befd93a33373f6fb504dd0c7",
+            "name": "Read a collection action",
+            "url": "http:\/\/api.evrythng.com\/\/collections\/{collectionId}\/actions\/{actionType}\/{actionId}",
+            "description": "Read an action on a collection by ID.",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "No Name",
+                    "description": "",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "22e9b8f53fe79d7ad2680976a2d11536",
+            "rawModeData": ""
+        },
+        {
+            "id": "9562ab45381727cf6cc221f26414a48c",
+            "name": "Add collections to a collection",
+            "url": "http:\/\/api.evrythng.com\/\/collections\/{collectionId}\/collections",
+            "description": "Add collections to a collection.",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "post",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "No Name",
+                    "description": "",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "22e9b8f53fe79d7ad2680976a2d11536",
+            "rawModeData": ""
+        },
+        {
+            "id": "cf04d8bbcd99492a16c13f19a33879c8",
+            "name": "Read all collections in a collections",
+            "url": "http:\/\/api.evrythng.com\/\/collections\/{collectionId}\/collections",
+            "description": "Read all collections in a collection.",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "No Name",
+                    "description": "",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "22e9b8f53fe79d7ad2680976a2d11536",
+            "rawModeData": ""
+        },
+        {
+            "id": "3356bb7f9938d776e0182115724034b3",
+            "name": "Remove all collections in a collection",
+            "url": "http:\/\/api.evrythng.com\/\/collections\/{collectionId}\/collections",
+            "description": "Remove all collections from a parent collection.",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "delete",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "No Name",
+                    "description": "",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "22e9b8f53fe79d7ad2680976a2d11536",
+            "rawModeData": ""
+        },
+        {
+            "id": "feb5c90a154795ae514477f14d69e959",
+            "name": "Remove a collection from a collection",
+            "url": "http:\/\/api.evrythng.com\/\/collections\/{collectionId}\/collections\/{childCollectionId}",
+            "description": "Remove a collection from a parent collection.",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "delete",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "No Name",
+                    "description": "",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "22e9b8f53fe79d7ad2680976a2d11536",
+            "rawModeData": ""
+        },
+        {
+            "id": "a5de897fa5a3b8f680630055591f3eda",
+            "name": "Add Thngs to a collection",
+            "url": "http:\/\/api.evrythng.com\/\/collections\/{collectionId}\/thngs",
+            "description": "Add Thngs to a collection. The maximum number of Thngs that can be added to a collection is 10,000 per request.",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "put",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "No Name",
+                    "description": "",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "22e9b8f53fe79d7ad2680976a2d11536",
+            "rawModeData": ""
+        },
+        {
+            "id": "3b2ef4f84163420df09bcc4a0a5caf70",
+            "name": "Read all Thngs in a collection",
+            "url": "http:\/\/api.evrythng.com\/\/collections\/{collectionId}\/thngs",
+            "description": "Read all Thngs in a collection.",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "No Name",
+                    "description": "",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "22e9b8f53fe79d7ad2680976a2d11536",
+            "rawModeData": ""
+        },
+        {
+            "id": "fd98ea632952f7b58d1bbb88b82073ac",
+            "name": "Remove all Thngs from a collection",
+            "url": "http:\/\/api.evrythng.com\/\/collections\/{collectionId}\/thngs",
+            "description": "Remove all Thngs from a collection. Note that this does not delete the actual Thngs themselves.",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "delete",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "No Name",
+                    "description": "",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "22e9b8f53fe79d7ad2680976a2d11536",
+            "rawModeData": ""
+        },
+        {
+            "id": "3e9c8a9c5fc4148618db95af0aac6e4c",
+            "name": "Remove a Thng from a collection",
+            "url": "http:\/\/api.evrythng.com\/\/collections\/{collectionId}\/thngs\/{thngId}",
+            "description": "Remove a Thng from a collection. There is a limit of 500 Thngs removed per API call on collections. If your collection contains more than 500 elements you should consider an iterative solution.",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "delete",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "No Name",
+                    "description": "",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "22e9b8f53fe79d7ad2680976a2d11536",
+            "rawModeData": ""
+        },
+        {
+            "id": "bae2f6e9afa80a9e3c40dec8bf8f13e5",
+            "name": "Read account domains",
+            "url": "http:\/\/api.evrythng.com\/\/accounts\/{accountId}\/domains",
+            "description": "Read all domains available to an account.",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "No Name",
+                    "description": "",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "22e9b8f53fe79d7ad2680976a2d11536",
+            "rawModeData": ""
+        },
+        {
+            "id": "ba1b9a0e9b471ad4cec5a220d67bd21d",
+            "name": "Create a file",
+            "url": "http:\/\/api.evrythng.com\/\/files",
+            "description": "Create remote file metadata. This operation is the basis for a remote file upload. A successful HTTP `POST` will create a `FileDocument` record with a unique ID and a transient `uploadUrl` field. This signed `uploadUrl` can then be used by a client with an HTTP `PUT` request to do the actual upload to remote storage. The `uploadUrl` will expire after 30 minutes. The input payload to this endpoint should also contain a setting for the `privateAccess` field to indicate whether the file should have",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "post",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "No Name",
+                    "description": "",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "22e9b8f53fe79d7ad2680976a2d11536",
+            "rawModeData": ""
+        },
+        {
+            "id": "e9bb664ea25802e34b3b3280e39df71b",
+            "name": "Read all files",
+            "url": "http:\/\/api.evrythng.com\/\/files",
+            "description": "Read all remote file metadata items.",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "22e9b8f53fe79d7ad2680976a2d11536",
+            "rawModeData": ""
+        },
+        {
+            "id": "b0f89f3c788c6ae00168d9abcc4eb54b",
+            "name": "Read a file",
+            "url": "http:\/\/api.evrythng.com\/\/files\/{fileId}",
+            "description": "Read a single remote file metadata item by ID.",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "No Name",
+                    "description": "",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "22e9b8f53fe79d7ad2680976a2d11536",
+            "rawModeData": ""
+        },
+        {
+            "id": "0135215e4fdb9eea1f466b680ed5ca18",
+            "name": "Delete a file",
+            "url": "http:\/\/api.evrythng.com\/\/files\/{fileId}",
+            "description": "Delete a single remote file metadata item by ID.",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "delete",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "No Name",
+                    "description": "",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "22e9b8f53fe79d7ad2680976a2d11536",
+            "rawModeData": ""
+        },
+        {
+            "id": "e2fcef0cc3875a01bb13ad83a469738f",
+            "name": "Identify from an image",
+            "url": "http:\/\/api.evrythng.com\/\/scan\/identifications",
+            "description": "Identify a 1D or 2D barcode from an uploaded image.",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "post",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "No Name",
+                    "description": "",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "22e9b8f53fe79d7ad2680976a2d11536",
+            "rawModeData": ""
+        },
+        {
+            "id": "a4eae7b5d5a374d44ce7ecd839dbfa1f",
+            "name": "Read an identifier",
+            "url": "http:\/\/api.evrythng.com\/\/scan\/identifications",
+            "description": "Read a known identifier for its resource.",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "No Name",
+                    "description": "",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "22e9b8f53fe79d7ad2680976a2d11536",
+            "rawModeData": ""
+        },
+        {
+            "id": "469e9f9f552a70aa39912c2126c3d6d9",
+            "name": "Create an OAuth client",
+            "url": "http:\/\/api.evrythng.com\/\/projects\/{projectId}\/applications\/{applicationId}\/oauthClients",
+            "description": "Registers a new OAuth client.",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "post",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "No Name",
+                    "description": "",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "22e9b8f53fe79d7ad2680976a2d11536",
+            "rawModeData": ""
+        },
+        {
+            "id": "f3ac502abf2ca7cf516413c87a51c133",
+            "name": "Read all OAuth clients",
+            "url": "http:\/\/api.evrythng.com\/\/projects\/{projectId}\/applications\/{applicationId}\/oauthClients",
+            "description": "Read all registered OAuth clients in an application.",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "No Name",
+                    "description": "",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "22e9b8f53fe79d7ad2680976a2d11536",
+            "rawModeData": ""
+        },
+        {
+            "id": "0def309671088fd2d1602c658c452046",
+            "name": "Read an OAuth client",
+            "url": "http:\/\/api.evrythng.com\/\/projects\/{projectId}\/applications\/{applicationId}\/oauthClients\/{clientId}",
+            "description": "Read a specific OAuth client by ID.",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "No Name",
+                    "description": "",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "22e9b8f53fe79d7ad2680976a2d11536",
+            "rawModeData": ""
+        },
+        {
+            "id": "d2d92ffa29ad215c7fb47147243cf1ca",
+            "name": "Update an OAuth client",
+            "url": "http:\/\/api.evrythng.com\/\/projects\/{projectId}\/applications\/{applicationId}\/oauthClients\/{clientId}",
+            "description": "Update an OAuth client by ID. As soon as the redirect URL is modified, the old URL is not used for a user's redirection.",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "put",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "No Name",
+                    "description": "",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "22e9b8f53fe79d7ad2680976a2d11536",
+            "rawModeData": ""
+        },
+        {
+            "id": "372d03db475235f9999ef7854aa57a49",
+            "name": "Delete an OAuth client",
+            "url": "http:\/\/api.evrythng.com\/\/projects\/{projectId}\/applications\/{applicationId}\/oauthClients\/{clientId}",
+            "description": "Delete an OAuth client by ID. After the client is removed, it is not allowed to obtain the Application User access token anymore.",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "delete",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "No Name",
+                    "description": "",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "22e9b8f53fe79d7ad2680976a2d11536",
+            "rawModeData": ""
+        },
+        {
+            "id": "df095a24ecbca4325fc5f1ed61f3459d",
+            "name": "Create a place",
+            "url": "http:\/\/api.evrythng.com\/\/places",
+            "description": "Create a new place.",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "post",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "No Name",
+                    "description": "",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "22e9b8f53fe79d7ad2680976a2d11536",
+            "rawModeData": ""
+        },
+        {
+            "id": "99395638933ac876a027818506a5c456",
+            "name": "Read all places",
+            "url": "http:\/\/api.evrythng.com\/\/places",
+            "description": "Read all places in an account, with an optional search origin and distance.",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "No Name",
+                    "description": "",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "22e9b8f53fe79d7ad2680976a2d11536",
+            "rawModeData": ""
+        },
+        {
+            "id": "36d369567f418e7888b32b3832b4cad7",
+            "name": "Read a place",
+            "url": "http:\/\/api.evrythng.com\/\/places\/{placeId}",
+            "description": "Read a place by ID.",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "No Name",
+                    "description": "",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "22e9b8f53fe79d7ad2680976a2d11536",
+            "rawModeData": ""
+        },
+        {
+            "id": "7bbe46ea2391b078094c52671a660b70",
+            "name": "Update a place",
+            "url": "http:\/\/api.evrythng.com\/\/places\/{placeId}",
+            "description": "Update a place by ID. The old fields are entirely overwritten by the new values, so to add a tag for example you must submit the previous tag array including the new tags.",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "put",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "No Name",
+                    "description": "",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "22e9b8f53fe79d7ad2680976a2d11536",
+            "rawModeData": ""
+        },
+        {
+            "id": "c3a9d370b91d703b5a84fd1481effc53",
+            "name": "Delete a place",
+            "url": "http:\/\/api.evrythng.com\/\/places\/{placeId}",
+            "description": "Delete a place by ID.",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "delete",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "No Name",
+                    "description": "",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "22e9b8f53fe79d7ad2680976a2d11536",
+            "rawModeData": ""
+        },
+        {
+            "id": "70fb97f7a06c0dab5929732c242214ed",
+            "name": "Create a policy",
+            "url": "http:\/\/api.evrythng.com\/\/roles\/{roleId}\/policies",
+            "description": "Create a new policy to apply a schema to a role.",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "post",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "No Name",
+                    "description": "",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "22e9b8f53fe79d7ad2680976a2d11536",
+            "rawModeData": ""
+        },
+        {
+            "id": "8adc2fbc1e9def51d14abc51790a9271",
+            "name": "Read all policies",
+            "url": "http:\/\/api.evrythng.com\/\/roles\/{roleId}\/policies",
+            "description": "Read all policies for a given role ID.",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "No Name",
+                    "description": "",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "22e9b8f53fe79d7ad2680976a2d11536",
+            "rawModeData": ""
+        },
+        {
+            "id": "cab3da17a85c8798cde668d04645ed21",
+            "name": "Read a policy",
+            "url": "http:\/\/api.evrythng.com\/\/roles\/{roleId}\/policies\/{policyId}",
+            "description": "Read a single policy on a role by ID.",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "No Name",
+                    "description": "",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "22e9b8f53fe79d7ad2680976a2d11536",
+            "rawModeData": ""
+        },
+        {
+            "id": "420e001b563f9720d21f3121be381b59",
+            "name": "Delete a policy",
+            "url": "http:\/\/api.evrythng.com\/\/roles\/{roleId}\/policies\/{policyId}",
+            "description": "Delete a single policy on a role by ID.",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "delete",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "No Name",
+                    "description": "",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "22e9b8f53fe79d7ad2680976a2d11536",
+            "rawModeData": ""
+        },
+        {
+            "id": "f95b9e33e81137c452fa43d85637ff6f",
+            "name": "Create a product",
+            "url": "http:\/\/api.evrythng.com\/\/products",
+            "description": "Create a new product. The ID returned can be then stored in the `product` field of any Thng in the platform, which denotes that that Thng is a unique instance of this particular product.",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "post",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "No Name",
+                    "description": "",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "22e9b8f53fe79d7ad2680976a2d11536",
+            "rawModeData": ""
+        },
+        {
+            "id": "d91fc276a0f4ae592579bb9242d84ced",
+            "name": "Read all products",
+            "url": "http:\/\/api.evrythng.com\/\/products",
+            "description": "Read all products in the account.",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "22e9b8f53fe79d7ad2680976a2d11536",
+            "rawModeData": ""
+        },
+        {
+            "id": "a0b2f56fa0670d9c810e7c6274dbcbda",
+            "name": "Read a product",
+            "url": "http:\/\/api.evrythng.com\/\/products\/{productId}",
+            "description": "Read a single product.",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "No Name",
+                    "description": "",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "22e9b8f53fe79d7ad2680976a2d11536",
+            "rawModeData": ""
+        },
+        {
+            "id": "1cfe3d866589ba50065bada03be46e44",
+            "name": "Update a product",
+            "url": "http:\/\/api.evrythng.com\/\/products\/{productId}",
+            "description": "Update a product by ID.",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "put",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "No Name",
+                    "description": "",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "22e9b8f53fe79d7ad2680976a2d11536",
+            "rawModeData": ""
+        },
+        {
+            "id": "2fb87a046e35b6556fedadcf062739e8",
+            "name": "Delete a product",
+            "url": "http:\/\/api.evrythng.com\/\/products\/{productId}",
+            "description": "Delete a product by ID. Deleting a product resource will remove its reference from all Thngs that point to it. This cannot be reversed!",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "delete",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "No Name",
+                    "description": "",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "22e9b8f53fe79d7ad2680976a2d11536",
+            "rawModeData": ""
+        },
+        {
+            "id": "d2923e72bdb3d2af49088287f0a9bf87",
+            "name": "Create a product action",
+            "url": "http:\/\/api.evrythng.com\/\/products\/{productId}\/actions\/{actionType}",
+            "description": "Create an action on a product.",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "post",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "No Name",
+                    "description": "",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "22e9b8f53fe79d7ad2680976a2d11536",
+            "rawModeData": ""
+        },
+        {
+            "id": "cde8dab5a2012a685207398903cd03be",
+            "name": "Read all product actions",
+            "url": "http:\/\/api.evrythng.com\/\/products\/{productId}\/actions\/{actionType}",
+            "description": "Read all actions created on a product.",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "No Name",
+                    "description": "",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "22e9b8f53fe79d7ad2680976a2d11536",
+            "rawModeData": ""
+        },
+        {
+            "id": "b3f499dd275c07d9e8d09de54acc12c9",
+            "name": "Read a product action",
+            "url": "http:\/\/api.evrythng.com\/\/products\/{productId}\/actions\/{actionType}\/{actionId}",
+            "description": "Read an action on a product by ID.",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "No Name",
+                    "description": "",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "22e9b8f53fe79d7ad2680976a2d11536",
+            "rawModeData": ""
+        },
+        {
+            "id": "783ff546aac92a629b2ad4f698422e9b",
+            "name": "Create a product's redirection",
+            "url": "http:\/\/api.evrythng.com\/\/products\/{productId}\/redirector",
+            "description": "Create a product's redirection.",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "post",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "No Name",
+                    "description": "",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "22e9b8f53fe79d7ad2680976a2d11536",
+            "rawModeData": ""
+        },
+        {
+            "id": "834ce0edb71ed26451e7f6dc84cc6b55",
+            "name": "Read a product's redirection",
+            "url": "http:\/\/api.evrythng.com\/\/products\/{productId}\/redirector",
+            "description": "Read a product's redirection.",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "No Name",
+                    "description": "",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "22e9b8f53fe79d7ad2680976a2d11536",
+            "rawModeData": ""
+        },
+        {
+            "id": "f7d34072438916aced7a4026608f4840",
+            "name": "Update a product's redirection",
+            "url": "http:\/\/api.evrythng.com\/\/products\/{productId}\/redirector",
+            "description": "Update a product's redirection.",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "put",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "No Name",
+                    "description": "",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "22e9b8f53fe79d7ad2680976a2d11536",
+            "rawModeData": ""
+        },
+        {
+            "id": "87502d1df4de2db5c0b5f513a0d9fa6c",
+            "name": "Delete a product's redirection",
+            "url": "http:\/\/api.evrythng.com\/\/products\/{productId}\/redirector",
+            "description": "Delete a product's redirection.",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "delete",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "No Name",
+                    "description": "",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "22e9b8f53fe79d7ad2680976a2d11536",
+            "rawModeData": ""
+        },
+        {
+            "id": "65bd133f99107b961299c2b03e7a746a",
+            "name": "Update multiple products",
+            "url": "http:\/\/api.evrythng.com\/\/products?filter=name%3DTest*",
+            "description": "Batch update Products with a `filter` query parameter.",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "put",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "No Name",
+                    "description": "",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "22e9b8f53fe79d7ad2680976a2d11536",
+            "rawModeData": ""
+        },
+        {
+            "id": "f4e6cc3dab49f150440ae2389ed39abd",
+            "name": "Create a project",
+            "url": "http:\/\/api.evrythng.com\/\/projects",
+            "description": "Create a new project within an account.",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "post",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "No Name",
+                    "description": "",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "22e9b8f53fe79d7ad2680976a2d11536",
+            "rawModeData": ""
+        },
+        {
+            "id": "888d30d86489f093fd99040457963d6b",
+            "name": "Read all projects",
+            "url": "http:\/\/api.evrythng.com\/\/projects",
+            "description": "Read all projects.",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "22e9b8f53fe79d7ad2680976a2d11536",
+            "rawModeData": ""
+        },
+        {
+            "id": "bcc58eb18cd59b94da7fc402c7759a22",
+            "name": "Read a project",
+            "url": "http:\/\/api.evrythng.com\/\/projects\/{projectId}",
+            "description": "Read a project by ID",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "No Name",
+                    "description": "",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "22e9b8f53fe79d7ad2680976a2d11536",
+            "rawModeData": ""
+        },
+        {
+            "id": "5f33261e00174cec29a12743478c2170",
+            "name": "Update a project",
+            "url": "http:\/\/api.evrythng.com\/\/projects\/{projectId}",
+            "description": "Update a project by ID.",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "put",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "No Name",
+                    "description": "",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "22e9b8f53fe79d7ad2680976a2d11536",
+            "rawModeData": ""
+        },
+        {
+            "id": "69dbcfa12da7047a2d72c3e41dc542e4",
+            "name": "Delete a project",
+            "url": "http:\/\/api.evrythng.com\/\/projects\/{projectId}",
+            "description": "Delete a project by ID. This action **cannot** be reversed!",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "delete",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "No Name",
+                    "description": "",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "22e9b8f53fe79d7ad2680976a2d11536",
+            "rawModeData": ""
+        },
+        {
+            "id": "c7cf8aae134dea4fb985a55d9df476e4",
+            "name": "Create\/update product properties",
+            "url": "http:\/\/api.evrythng.com\/\/products\/{productId}\/properties",
+            "description": "Create\/update a product's properties. When a resource is created, you can specify an initial set of properties and their values. To update those properties or to add new ones, use a `PUT` request with an array of `PropertyDocument` JSON objects containing the changed fields. If the properties updated do not exist, they are created automatically by this request and no error\/notification will be returned.",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "post",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "No Name",
+                    "description": "",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "22e9b8f53fe79d7ad2680976a2d11536",
+            "rawModeData": ""
+        },
+        {
+            "id": "f2fa2f29812d34732e19e31863a22cc2",
+            "name": "Read product properties",
+            "url": "http:\/\/api.evrythng.com\/\/products\/{productId}\/properties",
+            "description": "Read all properties on a product. The returned payload is the complete array of all the properties with the last value of each.",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "No Name",
+                    "description": "",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "22e9b8f53fe79d7ad2680976a2d11536",
+            "rawModeData": ""
+        },
+        {
+            "id": "9210f2e0de8431cda207661b5973f101",
+            "name": "Read a product property",
+            "url": "http:\/\/api.evrythng.com\/\/products\/{productId}\/properties\/{propertyKey}",
+            "description": "Read a single product property. By default, all the updates of this property are returned using pagination in a reverse history fashion (the first element of the returned array is the latest update). For accessing only a subset of all the updates to a single property, you can specify a time range using `?from=Timestamp` and `?to=Timestamp` to specify respectively the beginning and end of the time window. You will receive an array of all the property updates during this time.",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "No Name",
+                    "description": "",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "22e9b8f53fe79d7ad2680976a2d11536",
+            "rawModeData": ""
+        },
+        {
+            "id": "6e60926e3a3474db49724db67c33aa59",
+            "name": "Update a product property",
+            "url": "http:\/\/api.evrythng.com\/\/products\/{productId}\/properties\/{propertyKey}",
+            "description": "Update a single property by `key`.",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "put",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "No Name",
+                    "description": "",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "22e9b8f53fe79d7ad2680976a2d11536",
+            "rawModeData": ""
+        },
+        {
+            "id": "d43c314ac23d1b21d83a40b885cbad36",
+            "name": "Delete a product property",
+            "url": "http:\/\/api.evrythng.com\/\/products\/{productId}\/properties\/{propertyKey}",
+            "description": "Delete a product property. Property updates are not uniquely identified (do not have their own URL). Therefore, the only way to delete data points is to append the `?to=Timestamp` URL query parameter to specify a point in time before which all the data points will be removed. If the `?to=` parameter is not specified, ALL updates of this property will be deleted!",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "delete",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "No Name",
+                    "description": "",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "22e9b8f53fe79d7ad2680976a2d11536",
+            "rawModeData": ""
+        },
+        {
+            "id": "b01e7fd1ada40a33df4fb93c1f4c3d5b",
+            "name": "Create\/update Thng properties",
+            "url": "http:\/\/api.evrythng.com\/\/thngs\/{thngId}\/properties",
+            "description": "Create\/update Thng properties. When a resource is created, you can specify an initial set of properties and their values. To update those properties or to add new ones, use a `PUT` request with an array of `PropertyDocument` JSON objects containing the changed fields. If the properties updated do not exist, they are created automatically by this request and no error\/notification will be returned.",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "post",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "No Name",
+                    "description": "",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "22e9b8f53fe79d7ad2680976a2d11536",
+            "rawModeData": ""
+        },
+        {
+            "id": "6018c697fd079a413e4ca022a80f51cd",
+            "name": "Read all Thng properties",
+            "url": "http:\/\/api.evrythng.com\/\/thngs\/{thngId}\/properties",
+            "description": "Read all properties on a Thng.",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "No Name",
+                    "description": "",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "22e9b8f53fe79d7ad2680976a2d11536",
+            "rawModeData": ""
+        },
+        {
+            "id": "f207000fc8315e2de2114b3b3fcad3c0",
+            "name": "Update a Thng property",
+            "url": "http:\/\/api.evrythng.com\/\/thngs\/{thngId}\/properties\/{propertyKey}",
+            "description": "Update a single Thng property by `key`.",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "put",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "No Name",
+                    "description": "",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "22e9b8f53fe79d7ad2680976a2d11536",
+            "rawModeData": ""
+        },
+        {
+            "id": "6f55ae69be2d508b6c4475b835e324d5",
+            "name": "Read a Thng property",
+            "url": "http:\/\/api.evrythng.com\/\/thngs\/{thngId}\/properties\/{propertyKey}",
+            "description": "Read a single Thng property. By default, all the updates of this property are returned using pagination in a reverse history fashion (the first element of the returned array is the latest update). For accessing only a subset of all the updates to a single property, you can specify a time range using `?from=Timestamp` and `?to=Timestamp` to specify respectively the beginning and end of the time window. You will receive an array of all the property updates during this time.",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "No Name",
+                    "description": "",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "22e9b8f53fe79d7ad2680976a2d11536",
+            "rawModeData": ""
+        },
+        {
+            "id": "00e0ce9e3dcb9486e5cd1cccdc5fedb9",
+            "name": "Delete a Thng property",
+            "url": "http:\/\/api.evrythng.com\/\/thngs\/{thngId}\/properties\/{propertyKey}",
+            "description": "Delete a Thng property. Property updates are not uniquely identified (do not have their own URL). Therefore, the only way to delete data points is to append the `?to=Timestamp` URL query parameter to specify a point in time before which all the data points will be removed. If the `?to=` parameter is not specified, ALL updates of this property will be deleted!",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "delete",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "No Name",
+                    "description": "",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "22e9b8f53fe79d7ad2680976a2d11536",
+            "rawModeData": ""
+        },
+        {
+            "id": "6f4b5dfbac9eb7da6b61e745d04134cf",
+            "name": "Update a Reactor script",
+            "url": "http:\/\/api.evrythng.com\/\/projects\/{projectId}\/applications\/{applicationId}\/reactor\/script",
+            "description": "Update the Reactor script for an application.",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "put",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "No Name",
+                    "description": "",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "22e9b8f53fe79d7ad2680976a2d11536",
+            "rawModeData": ""
+        },
+        {
+            "id": "8f17baf535bb2f03630a8de027884f39",
+            "name": "Read a Reactor script",
+            "url": "http:\/\/api.evrythng.com\/\/projects\/{projectId}\/applications\/{applicationId}\/reactor\/script",
+            "description": "Read the Reactor script for an application by ID.",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "No Name",
+                    "description": "",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "22e9b8f53fe79d7ad2680976a2d11536",
+            "rawModeData": ""
+        },
+        {
+            "id": "30cb7a6cfe55fe0b918e3a3e919c5ac5",
+            "name": "Read Reactor script status",
+            "url": "http:\/\/api.evrythng.com\/\/projects\/{projectId}\/applications\/{applicationId}\/reactor\/script\/status",
+            "description": "Read the status of a Reactor script update in progress.",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "No Name",
+                    "description": "",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "22e9b8f53fe79d7ad2680976a2d11536",
+            "rawModeData": ""
+        },
+        {
+            "id": "ac339e8956ef49d8af75f1e4bb2d0815",
+            "name": "Read Reactor logs",
+            "url": "http:\/\/api.evrythng.com\/\/projects\/{projectId}\/applications\/{applicationId}\/reactor\/logs",
+            "description": "Read the Reactor logs.",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "No Name",
+                    "description": "",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "22e9b8f53fe79d7ad2680976a2d11536",
+            "rawModeData": ""
+        },
+        {
+            "id": "6bdb6504288917161206dccaaf0244fb",
+            "name": "Delete Reactor logs",
+            "url": "http:\/\/api.evrythng.com\/\/projects\/{projectId}\/applications\/{applicationId}\/reactor\/logs",
+            "description": "Delete the Reactor logs. To delete the Reactor logs of a specific log level you can use a `logLevel` filter.",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "delete",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "No Name",
+                    "description": "",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "22e9b8f53fe79d7ad2680976a2d11536",
+            "rawModeData": ""
+        },
+        {
+            "id": "de520ee08df9508191bf4b578ef59941",
+            "name": "Create a Reactor schedule",
+            "url": "http:\/\/api.evrythng.com\/\/projects\/{projectId}\/applications\/{applicationId}\/reactor\/schedules",
+            "description": "Create a Reactor schedule document, describing how the schedule should behave.",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "post",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "No Name",
+                    "description": "",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "22e9b8f53fe79d7ad2680976a2d11536",
+            "rawModeData": ""
+        },
+        {
+            "id": "22cabea4d3a3dc4323616fd783c60400",
+            "name": "Read all Reactor schedules",
+            "url": "http:\/\/api.evrythng.com\/\/projects\/{projectId}\/applications\/{applicationId}\/reactor\/schedules",
+            "description": "Read all Reactor schedules of the specified application.",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "No Name",
+                    "description": "",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "22e9b8f53fe79d7ad2680976a2d11536",
+            "rawModeData": ""
+        },
+        {
+            "id": "fdc2cc452a973f4b728d496346671582",
+            "name": "Read a Reactor schedule",
+            "url": "http:\/\/api.evrythng.com\/\/projects\/{projectId}\/applications\/{applicationId}\/reactor\/schedules\/{scheduleId}",
+            "description": "Read a single Reactor schedule by ID.",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "No Name",
+                    "description": "",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "22e9b8f53fe79d7ad2680976a2d11536",
+            "rawModeData": ""
+        },
+        {
+            "id": "7f26ede84831ea1c632d709bff5d9e3f",
+            "name": "Update a Reactor schedule",
+            "url": "http:\/\/api.evrythng.com\/\/projects\/{projectId}\/applications\/{applicationId}\/reactor\/schedules\/{scheduleId}",
+            "description": "Update fields of an existing Reactor schedule by ID.",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "put",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "No Name",
+                    "description": "",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "22e9b8f53fe79d7ad2680976a2d11536",
+            "rawModeData": ""
+        },
+        {
+            "id": "9bf4421e987110fa795dfdeef641d7a3",
+            "name": "Delete a Reactor schedule",
+            "url": "http:\/\/api.evrythng.com\/\/projects\/{projectId}\/applications\/{applicationId}\/reactor\/schedules\/{scheduleId}",
+            "description": "Delete a Reactor schedule by ID. A one-shot scheduled event (using `executeAt` instead of `cron`) will be deleted after it has elapsed, and not assigned an ID.",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "delete",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "No Name",
+                    "description": "",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "22e9b8f53fe79d7ad2680976a2d11536",
+            "rawModeData": ""
+        },
+        {
+            "id": "93af0ba27de103f3866d8f4ba014ea8d",
+            "name": "Read the account Redirector",
+            "url": "http:\/\/api.evrythng.com\/\/redirector",
+            "description": "Read the account-level Redirector.",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "22e9b8f53fe79d7ad2680976a2d11536",
+            "rawModeData": ""
+        },
+        {
+            "id": "39a19cb9d9e3883743907f0ef57a9b61",
+            "name": "Update the account Redirector",
+            "url": "http:\/\/api.evrythng.com\/\/redirector",
+            "description": "Update the account Redirector. Created if it does not exist.",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "put",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "No Name",
+                    "description": "",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "22e9b8f53fe79d7ad2680976a2d11536",
+            "rawModeData": ""
+        },
+        {
+            "id": "2ae52cde41b1f78f503f08d7abc9c03d",
+            "name": "Read an application Redirector",
+            "url": "http:\/\/api.evrythng.com\/\/projects\/{projectId}\/applications\/{applicationId}\/redirector",
+            "description": "Read an application's Redirector.",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "No Name",
+                    "description": "",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "22e9b8f53fe79d7ad2680976a2d11536",
+            "rawModeData": ""
+        },
+        {
+            "id": "e5eac8579b16b2afdef4eedc7af7753a",
+            "name": "Update an application Redirector",
+            "url": "http:\/\/api.evrythng.com\/\/projects\/{projectId}\/applications\/{applicationId}\/redirector",
+            "description": "Update the application Redirector. Will be created if it does not exist.",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "put",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "No Name",
+                    "description": "",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "22e9b8f53fe79d7ad2680976a2d11536",
+            "rawModeData": ""
+        },
+        {
+            "id": "5c28303dc53398dc19d8507eeb649e9a",
+            "name": "Create an Application User role",
+            "url": "http:\/\/api.evrythng.com\/\/roles",
+            "description": "Create a new Application User role. Only the account owner can create new roles. You cannot create roles with the same `name` as the predefined `admin` and `none` roles. Roles `name`s are considered unique. This means two roles with different `id`s cannot share the same `name`.",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "post",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "No Name",
+                    "description": "",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "22e9b8f53fe79d7ad2680976a2d11536",
+            "rawModeData": ""
+        },
+        {
+            "id": "9c2b2003e4ff4e42fce885f0a5b66798",
+            "name": "Read all roles",
+            "url": "http:\/\/api.evrythng.com\/\/roles",
+            "description": "Read all available roles within the account.",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "22e9b8f53fe79d7ad2680976a2d11536",
+            "rawModeData": ""
+        },
+        {
+            "id": "9bdc3db523835e392977bc9fa073731d",
+            "name": "Read a role",
+            "url": "http:\/\/api.evrythng.com\/\/roles\/{roleId}",
+            "description": "Read a single role by ID.",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "No Name",
+                    "description": "",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "22e9b8f53fe79d7ad2680976a2d11536",
+            "rawModeData": ""
+        },
+        {
+            "id": "0a10c3489bc3ae2c4cf10ddcdddfef3d",
+            "name": "Update a role",
+            "url": "http:\/\/api.evrythng.com\/\/roles\/{roleId}",
+            "description": "Update a role by ID.",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "put",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "No Name",
+                    "description": "",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "22e9b8f53fe79d7ad2680976a2d11536",
+            "rawModeData": ""
+        },
+        {
+            "id": "75b743f9a1cd06b84a5c8453b5727508",
+            "name": "Delete a role",
+            "url": "http:\/\/api.evrythng.com\/\/roles\/{roleId}",
+            "description": "Delete a role by ID. The predefined `none` role will be assigned to all the users currently having the role about to be removed. A `userInApp` role cannot be deleted until all users with that role have been assigned a different role.",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "delete",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "No Name",
+                    "description": "",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "22e9b8f53fe79d7ad2680976a2d11536",
+            "rawModeData": ""
+        },
+        {
+            "id": "ca88eb66b1436f7203fb0bb078a54ec5",
+            "name": "Read an Application User role's permissions",
+            "url": "http:\/\/api.evrythng.com\/\/roles\/{roleId}\/permissions",
+            "description": "Read an array of paths and access types that an Application User with the specified role can access.",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "No Name",
+                    "description": "",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "22e9b8f53fe79d7ad2680976a2d11536",
+            "rawModeData": ""
+        },
+        {
+            "id": "1f0d1f69daea4b4fd9f163b51a9fcfcc",
+            "name": "Update role permissions",
+            "url": "http:\/\/api.evrythng.com\/\/roles\/{roleId}\/permissions",
+            "description": "Update the set of permissions for a role with a new set. The payload replaces the old set of permissions for this role. This must include any existing permissions, otherwise they will be deleted if not present in the new payload. To remove a permission, simply omit it in the payload after reading from the role initially.",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "put",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "No Name",
+                    "description": "",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "22e9b8f53fe79d7ad2680976a2d11536",
+            "rawModeData": ""
+        },
+        {
+            "id": "93e18a78a39a27e70f037bd4c36e782d",
+            "name": "Create a schema",
+            "url": "http:\/\/api.evrythng.com\/\/schemas",
+            "description": "Create a new schema resource.",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "post",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "No Name",
+                    "description": "",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "22e9b8f53fe79d7ad2680976a2d11536",
+            "rawModeData": ""
+        },
+        {
+            "id": "67b06038e2456370413e31e06f9ef410",
+            "name": "Read all schemas",
+            "url": "http:\/\/api.evrythng.com\/\/schemas",
+            "description": "Read all schemas.",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "22e9b8f53fe79d7ad2680976a2d11536",
+            "rawModeData": ""
+        },
+        {
+            "id": "910ca1963f47a1c9adaa1a476322cf0a",
+            "name": "Read a schema",
+            "url": "http:\/\/api.evrythng.com\/\/schemas\/{schemaId}",
+            "description": "Read a single schema by ID.",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "No Name",
+                    "description": "",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "22e9b8f53fe79d7ad2680976a2d11536",
+            "rawModeData": ""
+        },
+        {
+            "id": "2c9810549b9fe1d26b0ad950ad4573cf",
+            "name": "Update a schema",
+            "url": "http:\/\/api.evrythng.com\/\/schemas\/{schemaId}",
+            "description": "Update a single schema by ID.",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "put",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "No Name",
+                    "description": "",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "22e9b8f53fe79d7ad2680976a2d11536",
+            "rawModeData": ""
+        },
+        {
+            "id": "585b74cab1c371b266dd30961156695e",
+            "name": "Delete a schema",
+            "url": "http:\/\/api.evrythng.com\/\/schemas\/{schemaId}",
+            "description": "Delete a single schema by ID.",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "delete",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "No Name",
+                    "description": "",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "22e9b8f53fe79d7ad2680976a2d11536",
+            "rawModeData": ""
+        },
+        {
+            "id": "c999c2e4c7999a72c8499fc472707cd9",
+            "name": "Create a batch task",
+            "url": "http:\/\/api.evrythng.com\/\/batches\/{batchId}\/tasks",
+            "description": "Create a task on the specified batch.",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "post",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "No Name",
+                    "description": "",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "22e9b8f53fe79d7ad2680976a2d11536",
+            "rawModeData": ""
+        },
+        {
+            "id": "326a95691025976855a3813f92730a16",
+            "name": "Read all batch tasks",
+            "url": "http:\/\/api.evrythng.com\/\/batches\/{batchId}\/tasks",
+            "description": "Read all tasks for a given batch.",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "No Name",
+                    "description": "",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "22e9b8f53fe79d7ad2680976a2d11536",
+            "rawModeData": ""
+        },
+        {
+            "id": "5b3475f162885b2e2166eca9a239739b",
+            "name": "Read a batch task",
+            "url": "http:\/\/api.evrythng.com\/\/batches\/{batchId}\/tasks\/{taskId}",
+            "description": "Read a single task for a given batch.",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "No Name",
+                    "description": "",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "22e9b8f53fe79d7ad2680976a2d11536",
+            "rawModeData": ""
+        },
+        {
+            "id": "ec4b5c401005870004e63ff9075c28bb",
+            "name": "Read task error logs",
+            "url": "http:\/\/api.evrythng.com\/\/batches\/{batchId}\/tasks\/{taskId}\/logs",
+            "description": "Read the error logs, if any, for a given task. If not errors occured, there will be no logs.",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "No Name",
+                    "description": "",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "22e9b8f53fe79d7ad2680976a2d11536",
+            "rawModeData": ""
+        },
+        {
+            "id": "0a3ea4254e31e290b2e7017f6812e973",
+            "name": "Create a Thng",
+            "url": "http:\/\/api.evrythng.com\/\/thngs",
+            "description": "Create a new Thng.",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "post",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "No Name",
+                    "description": "",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "22e9b8f53fe79d7ad2680976a2d11536",
+            "rawModeData": ""
+        },
+        {
+            "id": "4de3c5588842216149204e45bd92b57f",
+            "name": "Read all Thngs",
+            "url": "http:\/\/api.evrythng.com\/\/thngs",
+            "description": "Read all Thngs.",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "22e9b8f53fe79d7ad2680976a2d11536",
+            "rawModeData": ""
+        },
+        {
+            "id": "d9e29ba9e5eebced02b3a8a7dd68cb5c",
+            "name": "Read a Thng",
+            "url": "http:\/\/api.evrythng.com\/\/thngs\/{thngId}",
+            "description": "Read a single Thng by ID.",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "No Name",
+                    "description": "",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "22e9b8f53fe79d7ad2680976a2d11536",
+            "rawModeData": ""
+        },
+        {
+            "id": "35259afb58c2e82a6fb2cbe810a844fb",
+            "name": "Update a Thng",
+            "url": "http:\/\/api.evrythng.com\/\/thngs\/{thngId}",
+            "description": "Update a Thng by ID. Only the basic fields (`name`, `description`, `product`, `identifiers`, `tags`, and `customFields`) can be updated in this manner. Properties, location and collections must be updated via their respective `\/thngs\/:thngId\/location`, `\/thngs\/:thngId\/properties` and `\/collections\/:collectionId\/thngs` endpoints.",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "put",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "No Name",
+                    "description": "",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "22e9b8f53fe79d7ad2680976a2d11536",
+            "rawModeData": ""
+        },
+        {
+            "id": "abb5e8baea7dcb72b70dd79fd6a4ee5e",
+            "name": "Delete a Thng",
+            "url": "http:\/\/api.evrythng.com\/\/thngs\/{thngId}",
+            "description": "Delete a Thng by ID.",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "delete",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "No Name",
+                    "description": "",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "22e9b8f53fe79d7ad2680976a2d11536",
+            "rawModeData": ""
+        },
+        {
+            "id": "eccf9f3ec4bdc478776e7f784bcd30b1",
+            "name": "Create a Thng's redirection",
+            "url": "http:\/\/api.evrythng.com\/\/thngs\/{thngId}\/redirector",
+            "description": "Create a Thng's redirection.",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "post",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "No Name",
+                    "description": "",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "22e9b8f53fe79d7ad2680976a2d11536",
+            "rawModeData": ""
+        },
+        {
+            "id": "157556a355b62be340669c0eae959704",
+            "name": "Read a Thng's redirection",
+            "url": "http:\/\/api.evrythng.com\/\/thngs\/{thngId}\/redirector",
+            "description": "Read a Thng's redirection.",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "No Name",
+                    "description": "",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "22e9b8f53fe79d7ad2680976a2d11536",
+            "rawModeData": ""
+        },
+        {
+            "id": "ca06778be059a47e4fdad45e5f331ba4",
+            "name": "Update a Thng's redirection",
+            "url": "http:\/\/api.evrythng.com\/\/thngs\/{thngId}\/redirector",
+            "description": "Update a Thng's redirection.",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "put",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "No Name",
+                    "description": "",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "22e9b8f53fe79d7ad2680976a2d11536",
+            "rawModeData": ""
+        },
+        {
+            "id": "da153324531ed53abd0ce3483efac9bf",
+            "name": "Delete a Thng's redirection",
+            "url": "http:\/\/api.evrythng.com\/\/thngs\/{thngId}\/redirector",
+            "description": "Delete a Thng's redirection.",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "delete",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "No Name",
+                    "description": "",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "22e9b8f53fe79d7ad2680976a2d11536",
+            "rawModeData": ""
+        },
+        {
+            "id": "50a2caf07f7068302820fcb69fcef218",
+            "name": "Update multiple Thngs",
+            "url": "http:\/\/api.evrythng.com\/\/thngs?filter=tags%3D:tags",
+            "description": "Batch update Thngs with a filter query parameter.",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "put",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "No Name",
+                    "description": "",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "22e9b8f53fe79d7ad2680976a2d11536",
+            "rawModeData": ""
+        },
+        {
+            "id": "5d82558d6df33038d01cb29112af8234",
+            "name": "Read a Thng's location",
+            "url": "http:\/\/api.evrythng.com\/\/thngs\/{thngId}\/location",
+            "description": "Read a Thng's location history.",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "No Name",
+                    "description": "",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "22e9b8f53fe79d7ad2680976a2d11536",
+            "rawModeData": ""
+        },
+        {
+            "id": "07d2b711db83d3ecd1a18faf4279c3b2",
+            "name": "Update a Thng's location",
+            "url": "http:\/\/api.evrythng.com\/\/thngs\/{thngId}\/location",
+            "description": "Update a Thng's location. The payload must always be an array of `LocationDocument` objects, which allows you to send several locations (with different timestamps each) in a single request. This is useful when a device wants to update a path cached over a certain period of time at once. An example would be a taxi that updates the whole set of locations it has been through once per hour instead of sending each GPS sensor reading individually.",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "put",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "No Name",
+                    "description": "",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "22e9b8f53fe79d7ad2680976a2d11536",
+            "rawModeData": ""
+        },
+        {
+            "id": "5ca334944de3b0507c6c5e8be7806d64",
+            "name": "Delete a Thng location history",
+            "url": "http:\/\/api.evrythng.com\/\/thngs\/{thngId}\/location",
+            "description": "Delete a Thng's location history. If the `?to=Timestamp` query parameter with timestamp is not specified, all history for this property will be deleted.",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "delete",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "No Name",
+                    "description": "",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "22e9b8f53fe79d7ad2680976a2d11536",
+            "rawModeData": ""
+        },
+        {
+            "id": "acb6b9a766834db12caf8012e16ae5f9",
+            "name": "Create a Thng action",
+            "url": "http:\/\/api.evrythng.com\/\/thngs\/{thngId}\/actions\/{actionType}",
+            "description": "Create an action on a Thng.",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "post",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "No Name",
+                    "description": "",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "22e9b8f53fe79d7ad2680976a2d11536",
+            "rawModeData": ""
+        },
+        {
+            "id": "678c3892c49b49b3d6f822f21e7b0058",
+            "name": "Read all Thng actions",
+            "url": "http:\/\/api.evrythng.com\/\/thngs\/{thngId}\/actions\/{actionType}",
+            "description": "Read all actions on a Thng.",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "No Name",
+                    "description": "",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "22e9b8f53fe79d7ad2680976a2d11536",
+            "rawModeData": ""
+        },
+        {
+            "id": "3a29631c01cc53d3803b14888afa72cf",
+            "name": "Read a Thng action",
+            "url": "http:\/\/api.evrythng.com\/\/thngs\/{thngId}\/actions\/{actionType}\/{actionId}",
+            "description": "Read an action on a Thng by ID.",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "No Name",
+                    "description": "",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "22e9b8f53fe79d7ad2680976a2d11536",
+            "rawModeData": ""
+        },
+        {
+            "id": "dad7ffe2b1068d5411e495c4f3c93792",
+            "name": "Create a Device API Key",
+            "url": "http:\/\/api.evrythng.com\/\/auth\/evrythng\/thngs",
+            "description": "Create a Device API key for a Thng to manage its own data. A Device API key can only be created by Application Users or Operators. If called multiple times for the same Thng, the existing API key will be returned (a new one will not be generated). If you want to create a new API key for a Thng, you must delete the existing one first.",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "post",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "No Name",
+                    "description": "",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "22e9b8f53fe79d7ad2680976a2d11536",
+            "rawModeData": ""
+        },
+        {
+            "id": "324002c6308d0cb742bfa3b2fc3c38b6",
+            "name": "Read a Device API Key",
+            "url": "http:\/\/api.evrythng.com\/\/auth\/evrythng\/thngs\/{thngId}",
+            "description": "Retrieve a Device API key with a Thng's ID.",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "No Name",
+                    "description": "",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "22e9b8f53fe79d7ad2680976a2d11536",
+            "rawModeData": ""
+        },
+        {
+            "id": "ba853ab26102a8c9f111e3eebe0c19b1",
+            "name": "Delete a Device API Key",
+            "url": "http:\/\/api.evrythng.com\/\/auth\/evrythng\/thngs\/{thngId}",
+            "description": "Delete a Device API key to revoke access.",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "delete",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "No Name",
+                    "description": "",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "22e9b8f53fe79d7ad2680976a2d11536",
+            "rawModeData": ""
+        }
+    ]
+}
