@@ -1,0 +1,958 @@
+{
+    "id": "8a43d87b1513203a21b1d4f9936f83fa",
+    "name": "EVRYTHNG",
+    "description": null,
+    "auth": null,
+    "events": null,
+    "variables": [],
+    "order": [],
+    "folders_order": [],
+    "folders": [],
+    "requests": [
+        {
+            "id": "180954e6018e872d0edab39f8d16a3c2",
+            "name": "\/thngs (O)",
+            "url": "httpsexample.com\/\/thngs",
+            "description": "OPERATOR reads the list of all thngs in the account.",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "Content",
+                    "description": "",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "Accept",
+                    "description": "",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "8a43d87b1513203a21b1d4f9936f83fa",
+            "rawModeData": ""
+        },
+        {
+            "id": "af548b773197c76fb11bfc61f31d658d",
+            "name": "\/thngs (O)",
+            "url": "httpsexample.com\/\/thngs",
+            "description": "Creates a thng that is visible by no Applications",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "post",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "Body",
+                    "description": "",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "Content",
+                    "description": "",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "Accept",
+                    "description": "",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "8a43d87b1513203a21b1d4f9936f83fa",
+            "rawModeData": ""
+        },
+        {
+            "id": "ac1f8001c77b78f675a59ff7128cb17a",
+            "name": "\/products\/{id} (O)",
+            "url": "httpsexample.com\/\/products\/{PROD_ID}",
+            "description": "OPERATOR reads a specific product.",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "Content",
+                    "description": "",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "Accept",
+                    "description": "",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "PROD_ID",
+                    "description": "",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "8a43d87b1513203a21b1d4f9936f83fa",
+            "rawModeData": ""
+        },
+        {
+            "id": "1c6bf434793ec583aef3a89347624fe6",
+            "name": "\/auth\/evrythng\/users (A)",
+            "url": "httpsexample.com\/\/auth\/evrythng\/users",
+            "description": "APP creates a new EVRYTHNG user in it (using email\/password).",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "post",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "Body",
+                    "description": "",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "Content",
+                    "description": "",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "Accept",
+                    "description": "",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "8a43d87b1513203a21b1d4f9936f83fa",
+            "rawModeData": ""
+        },
+        {
+            "id": "91ba9f674ccd762df299120b2f065e27",
+            "name": "\/users\/{id} (O)",
+            "url": "httpsexample.com\/\/users\/{USER_ID}",
+            "description": "OPERATOR reads data a specific user.",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "Content",
+                    "description": "",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "Accept",
+                    "description": "",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "USER_ID",
+                    "description": "",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "8a43d87b1513203a21b1d4f9936f83fa",
+            "rawModeData": ""
+        },
+        {
+            "id": "701ee88b361dc2c3d90659b367b686c9",
+            "name": "\/user\/{id}\/validate (A)",
+            "url": "httpsexample.com\/\/auth\/evrythng\/users\/{USER_ID}\/validate",
+            "description": "APP validates a user (which can then login & out).",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "post",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "Body",
+                    "description": "",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "Content",
+                    "description": "",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "Accept",
+                    "description": "",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "USER_ID",
+                    "description": "",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "8a43d87b1513203a21b1d4f9936f83fa",
+            "rawModeData": ""
+        },
+        {
+            "id": "098106185a5938546888465c0a9cb623",
+            "name": "\/products (A)",
+            "url": "httpsexample.com\/\/products",
+            "description": "APP Reads the list of all products visible.",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "Content",
+                    "description": "",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "Accept",
+                    "description": "",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "8a43d87b1513203a21b1d4f9936f83fa",
+            "rawModeData": ""
+        },
+        {
+            "id": "e2c9027e409cf477c2ff083a98eb17de",
+            "name": "\/products (O)",
+            "url": "httpsexample.com\/\/products",
+            "description": "OPERATOR creates a product visible in **NO** applications.",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "post",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "Body",
+                    "description": "",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "Content",
+                    "description": "",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "Accept",
+                    "description": "",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "8a43d87b1513203a21b1d4f9936f83fa",
+            "rawModeData": ""
+        },
+        {
+            "id": "9519d70470f20fe6022e7563f9b08fd9",
+            "name": "\/actions\/scans (U)",
+            "url": "httpsexample.com\/\/actions\/scans",
+            "description": "**USER** creates a \"scan\" action on a thng.\n\n**ATTENTION -->** use a valid thng ID in the payload!",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "post",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "Body",
+                    "description": "",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "Content",
+                    "description": "",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "Accept",
+                    "description": "",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "8a43d87b1513203a21b1d4f9936f83fa",
+            "rawModeData": ""
+        },
+        {
+            "id": "790b65e007000053a6168dd48eb3ecb6",
+            "name": "\/actions?project={id} (O)",
+            "url": "httpsexample.com\/\/actions",
+            "description": "**OPERATOR** returns all the action types in the scope of an Application.",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "project",
+                    "description": "",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "Content",
+                    "description": "",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "Accept",
+                    "description": "",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "8a43d87b1513203a21b1d4f9936f83fa",
+            "rawModeData": ""
+        },
+        {
+            "id": "a961cf60c1ea4e450e453b1b8d09a078",
+            "name": "\/actions?project={id} (O)",
+            "url": "httpsexample.com\/\/actions",
+            "description": "**OPERATOR** creates a new custom action type for app ID (visible only by that app).",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "post",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "project",
+                    "description": "",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "Body",
+                    "description": "",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "Content",
+                    "description": "",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "Accept",
+                    "description": "",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "8a43d87b1513203a21b1d4f9936f83fa",
+            "rawModeData": ""
+        },
+        {
+            "id": "df51c97f57f4a0076560f8526c8fbea0",
+            "name": "\/applications\/ (O)",
+            "url": "httpsexample.com\/\/projects\/{PROJECT_ID}\/applications\/",
+            "description": "OPERATOR creates a new application.",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "post",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "Body",
+                    "description": "",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "Content",
+                    "description": "",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "Accept",
+                    "description": "",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "PROJECT_ID",
+                    "description": "",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "8a43d87b1513203a21b1d4f9936f83fa",
+            "rawModeData": ""
+        },
+        {
+            "id": "98264c849d4b94bd26ebe158ee516080",
+            "name": "\/projects\/{id} (O)",
+            "url": "httpsexample.com\/\/projects\/{PROJECT_ID}",
+            "description": "OPERATOR Reads a Specific Project.",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "Content",
+                    "description": "",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "Accept",
+                    "description": "",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "PROJECT_ID",
+                    "description": "",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "8a43d87b1513203a21b1d4f9936f83fa",
+            "rawModeData": ""
+        },
+        {
+            "id": "d0a85b3d2d5bb55333bb8adce151b5a1",
+            "name": "\/users\/{id}\/status (O)",
+            "url": "httpsexample.com\/\/users\/{USER_ID}\/status",
+            "description": "OPERATOR gets the status of a specific user.",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "Content",
+                    "description": "",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "Accept",
+                    "description": "",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "USER_ID",
+                    "description": "",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "8a43d87b1513203a21b1d4f9936f83fa",
+            "rawModeData": ""
+        },
+        {
+            "id": "82247af577a9c6379e2c795c0b8b7874",
+            "name": "\/auth\/evrythng (A)",
+            "url": "httpsexample.com\/\/auth\/evrythng\/",
+            "description": "APP logs in an existing (and activated) user (with email\/password).",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "post",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "Body",
+                    "description": "",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "Content",
+                    "description": "",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "Accept",
+                    "description": "",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "8a43d87b1513203a21b1d4f9936f83fa",
+            "rawModeData": ""
+        },
+        {
+            "id": "3c42b7a8d2fc3b3df2ab155da140e2e8",
+            "name": "\/projects\/ (O)",
+            "url": "httpsexample.com\/\/projects\/",
+            "description": "OPERATOR reads the list of all Projects.",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "Content",
+                    "description": "",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "Accept",
+                    "description": "",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "8a43d87b1513203a21b1d4f9936f83fa",
+            "rawModeData": ""
+        },
+        {
+            "id": "0d31e21a82da8f58205b312c2727ff51",
+            "name": "\/projects\/ (O)",
+            "url": "httpsexample.com\/\/projects\/",
+            "description": "OPERATOR creates a new project.",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "post",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "Body",
+                    "description": "",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "Content",
+                    "description": "",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "Accept",
+                    "description": "",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "8a43d87b1513203a21b1d4f9936f83fa",
+            "rawModeData": ""
+        },
+        {
+            "id": "b656d18bd472b237a7133b5273ab88c2",
+            "name": "\/users (O)",
+            "url": "httpsexample.com\/\/users",
+            "description": "OPERATOR gets the list of all users of the engine.",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "Content",
+                    "description": "",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "Accept",
+                    "description": "",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "8a43d87b1513203a21b1d4f9936f83fa",
+            "rawModeData": ""
+        },
+        {
+            "id": "b33f17c177b3addf2e2282cdd62bc8e8",
+            "name": "\/applications\/{id} (O)",
+            "url": "httpsexample.com\/\/projects\/{PROJECT_ID}\/applications\/{APP_ID}",
+            "description": "OPERATOR reads a specific application.",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "Content",
+                    "description": "",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "Accept",
+                    "description": "",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "PROJECT_ID",
+                    "description": "",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "APP_ID",
+                    "description": "",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "8a43d87b1513203a21b1d4f9936f83fa",
+            "rawModeData": ""
+        },
+        {
+            "id": "745295a8bf966c1b40cae9dc84aa3739",
+            "name": "\/thngs\/{id}\/location (U)",
+            "url": "httpsexample.com\/\/thngs\/{THNG_ID}\/location",
+            "description": "USER updates the location of a thng.",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "put",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "Body",
+                    "description": "",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "Content",
+                    "description": "",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "Accept",
+                    "description": "",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "THNG_ID",
+                    "description": "",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "8a43d87b1513203a21b1d4f9936f83fa",
+            "rawModeData": ""
+        },
+        {
+            "id": "e024811cad101b58508b9bc0afba7baf",
+            "name": "\/auth\/all\/logout (U)",
+            "url": "httpsexample.com\/\/auth\/all\/logout",
+            "description": "USER logs himself out (which renders the user API Key invalid).",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "post",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "Content",
+                    "description": "",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "Accept",
+                    "description": "",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "8a43d87b1513203a21b1d4f9936f83fa",
+            "rawModeData": ""
+        }
+    ]
+}
