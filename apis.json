@@ -8,8 +8,8 @@
         "internet of things",
         "relative data"
     ],
-    "created": "2019-12-19",
-    "modified": "2019-12-19",
+    "created": "2019-12-21",
+    "modified": "2019-12-21",
     "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/evrythng\/master\/apis.json",
     "specificationVersion": "0.14",
     "apis": [
@@ -23,11 +23,15 @@
             "properties": [
                 {
                     "type": "x-openapi",
-                    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/1forge\/master\/evrythng-openapi.json"
+                    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/evrythng\/master\/evrythng-openapi.json"
                 },
                 {
                     "type": "x-openapi",
                     "url": "http:\/\/kinlane-productions.s3.amazonaws.com\/api-evangelist-site\/company\/openapis\/evrythng.json"
+                },
+                {
+                    "type": "x-postman-collecction",
+                    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/evrythng\/master\/evrythng-postman-collection.json"
                 }
             ]
         },
@@ -41,17 +45,25 @@
             "properties": [
                 {
                     "type": "x-openapi",
-                    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/1forge\/master\/evrythng-rest-api-openapi.json"
+                    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/evrythng\/master\/evrythng-rest-api-openapi.json"
                 },
                 {
                     "type": "x-openapi",
                     "url": "http:\/\/kinlane-productions.s3.amazonaws.com\/api-evangelist-site\/company\/openapis\/evrythng-rest-api.json"
+                },
+                {
+                    "type": "x-postman-collecction",
+                    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/evrythng\/master\/evrythng-rest-api-postman-collection.json"
                 }
             ]
         }
     ],
     "include": [],
     "x-common": [
+        {
+            "type": "APIs.json",
+            "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/1forge\/master\/apis.json"
+        },
         {
             "type": "Deprecation",
             "url": "https:\/\/developers.evrythng.com\/docs\/deprecation"
