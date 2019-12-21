@@ -1,5 +1,5 @@
 {
-    "id": "22e9b8f53fe79d7ad2680976a2d11536",
+    "id": "01f7e9f1e7f8efcc9756c1db23000d0f",
     "name": "EVRYTHNG REST API",
     "description": null,
     "auth": null,
@@ -10,7 +10,7 @@
     "folders": [],
     "requests": [
         {
-            "id": "5e59a4253b225e7b7f6adba51433a996",
+            "id": "c92d5d2a895b24388dced86dd3478315",
             "name": "Read key access information",
             "url": "http:\/\/api.evrythng.com\/\/access",
             "description": "Read key access information for the authenticating key.",
@@ -29,11 +29,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "22e9b8f53fe79d7ad2680976a2d11536",
+            "collectionId": "01f7e9f1e7f8efcc9756c1db23000d0f",
             "rawModeData": ""
         },
         {
-            "id": "a9e2969ccbf85c8d012a2a76fe149619",
+            "id": "90aa745c67bb683564fc6950dc943cb7",
             "name": "Create a new access",
             "url": "http:\/\/api.evrythng.com\/\/accesses",
             "description": "Create a new access for another Application User.",
@@ -60,11 +60,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "22e9b8f53fe79d7ad2680976a2d11536",
+            "collectionId": "01f7e9f1e7f8efcc9756c1db23000d0f",
             "rawModeData": ""
         },
         {
-            "id": "736b6f7e66dc2b8586ae44dd3f774e90",
+            "id": "fe721f45ce00d0f4bac576bd86a2385a",
             "name": "Read all accesses",
             "url": "http:\/\/api.evrythng.com\/\/accesses",
             "description": "Read an Application User's available acesses.",
@@ -83,11 +83,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "22e9b8f53fe79d7ad2680976a2d11536",
+            "collectionId": "01f7e9f1e7f8efcc9756c1db23000d0f",
             "rawModeData": ""
         },
         {
-            "id": "37a01f10158106c179c3cd71cf6dff69",
+            "id": "ca597746838f250cd9469f72c5ff6f97",
             "name": "Delete an access",
             "url": "http:\/\/api.evrythng.com\/\/accesses\/{accessId}",
             "description": "Delete an existing Application User access to revoke it. Either the granting or receiving user can do this.",
@@ -114,11 +114,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "22e9b8f53fe79d7ad2680976a2d11536",
+            "collectionId": "01f7e9f1e7f8efcc9756c1db23000d0f",
             "rawModeData": ""
         },
         {
-            "id": "24bed2af494a050421e29b15d3a20c9d",
+            "id": "bf41f28d44cda54c2675daebbe20b18c",
             "name": "Read all accounts",
             "url": "http:\/\/api.evrythng.com\/\/accounts",
             "description": "Get all accounts visible to an Operator with their API key.",
@@ -137,11 +137,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "22e9b8f53fe79d7ad2680976a2d11536",
+            "collectionId": "01f7e9f1e7f8efcc9756c1db23000d0f",
             "rawModeData": ""
         },
         {
-            "id": "96bfa9589e4cfb3b04096875b9f67c52",
+            "id": "60725ddfe2517b5fb63ff280885aa66c",
             "name": "Read an account",
             "url": "http:\/\/api.evrythng.com\/\/accounts\/{accountId}",
             "description": "Read a single account by ID.",
@@ -168,11 +168,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "22e9b8f53fe79d7ad2680976a2d11536",
+            "collectionId": "01f7e9f1e7f8efcc9756c1db23000d0f",
             "rawModeData": ""
         },
         {
-            "id": "15a335668cceb09220a2271d719ce5af",
+            "id": "7111be2c10961fe27de6f6fbd4fd2b29",
             "name": "Update an account",
             "url": "http:\/\/api.evrythng.com\/\/accounts\/{accountId}",
             "description": "Update an account with new user information, such as new `customFields`.",
@@ -199,11 +199,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "22e9b8f53fe79d7ad2680976a2d11536",
+            "collectionId": "01f7e9f1e7f8efcc9756c1db23000d0f",
             "rawModeData": ""
         },
         {
-            "id": "0cb73dfade64e7e0927cc3de786f9112",
+            "id": "ba1e2471ab1737e3a7ab7c977fe1015d",
             "name": "Read account accesses",
             "url": "http:\/\/api.evrythng.com\/\/accounts\/{accountId}\/accesses",
             "description": "Read an account's access information and current role.",
@@ -230,11 +230,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "22e9b8f53fe79d7ad2680976a2d11536",
+            "collectionId": "01f7e9f1e7f8efcc9756c1db23000d0f",
             "rawModeData": ""
         },
         {
-            "id": "5a2ce1b81b0805d3281426dfe2ca8d7e",
+            "id": "9bd89a906604a4f11e35156883eab5d9",
             "name": "Read an account access",
             "url": "http:\/\/api.evrythng.com\/\/accounts\/{accountId}\/accesses\/{accessId}",
             "description": "Read an account access by ID.",
@@ -261,11 +261,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "22e9b8f53fe79d7ad2680976a2d11536",
+            "collectionId": "01f7e9f1e7f8efcc9756c1db23000d0f",
             "rawModeData": ""
         },
         {
-            "id": "3daa90f79fa797ee354ce66bc2aec550",
+            "id": "ba2d00c4ea37c65d2e8ea5053d5db31d",
             "name": "Update an account access",
             "url": "http:\/\/api.evrythng.com\/\/accounts\/{accountId}\/accesses\/{accessId}",
             "description": "Update an account access to set a new role.",
@@ -292,11 +292,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "22e9b8f53fe79d7ad2680976a2d11536",
+            "collectionId": "01f7e9f1e7f8efcc9756c1db23000d0f",
             "rawModeData": ""
         },
         {
-            "id": "7b0eee64e82b7f27e485f86805b7e687",
+            "id": "69f77b2759baa6c297ba3270e6ca8136",
             "name": "Read account short domains",
             "url": "http:\/\/api.evrythng.com\/\/accounts\/{accountId}\/shortDomains",
             "description": "Read all short domains available to an account.",
@@ -323,11 +323,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "22e9b8f53fe79d7ad2680976a2d11536",
+            "collectionId": "01f7e9f1e7f8efcc9756c1db23000d0f",
             "rawModeData": ""
         },
         {
-            "id": "9d0e55241faeb286ed1f1a76050fc58a",
+            "id": "dc8b960dea3d0d8e98cfc464510de34e",
             "name": "View rate limit information",
             "url": "http:\/\/api.evrythng.com\/\/rateLimits",
             "description": "View rate limit information for the accounts.",
@@ -346,11 +346,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "22e9b8f53fe79d7ad2680976a2d11536",
+            "collectionId": "01f7e9f1e7f8efcc9756c1db23000d0f",
             "rawModeData": ""
         },
         {
-            "id": "b0a48638ae0af47d98a47d4bd456eeeb",
+            "id": "361ebe14be8d0ae222fbe544a474b3fa",
             "name": "Create an action type",
             "url": "http:\/\/api.evrythng.com\/\/actions",
             "description": "Create a new action type.",
@@ -377,11 +377,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "22e9b8f53fe79d7ad2680976a2d11536",
+            "collectionId": "01f7e9f1e7f8efcc9756c1db23000d0f",
             "rawModeData": ""
         },
         {
-            "id": "8651dccaadd290ea760e4d74962caaf8",
+            "id": "f20a006676f1a75bb6cd5d3cd3262959",
             "name": "Read all action types",
             "url": "http:\/\/api.evrythng.com\/\/actions",
             "description": "Read all action types.  The action types are returned with the built-in types coming first, followed by the custom types sorted by descending creation date.",
@@ -400,11 +400,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "22e9b8f53fe79d7ad2680976a2d11536",
+            "collectionId": "01f7e9f1e7f8efcc9756c1db23000d0f",
             "rawModeData": ""
         },
         {
-            "id": "4c3f3f1543b641ec23134fe8076b4e86",
+            "id": "6e89c75108f34ea6f798be6170af3e93",
             "name": "Create an action",
             "url": "http:\/\/api.evrythng.com\/\/actions\/{actionType}",
             "description": "Create a new action of the specified type. `all` can be specified as the `actionType`, in which case the specified action type must be supplied in the payload. If no location is specified, the Platform will automatically determine the location based on the IP address of the device who has issued it, along with a country code that is returned in the context object.",
@@ -431,11 +431,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "22e9b8f53fe79d7ad2680976a2d11536",
+            "collectionId": "01f7e9f1e7f8efcc9756c1db23000d0f",
             "rawModeData": ""
         },
         {
-            "id": "446e901044d88c7c35d61b20b2846ff4",
+            "id": "93b89a603eba47accf4c5a27234ac2f6",
             "name": "Read all actions of a type",
             "url": "http:\/\/api.evrythng.com\/\/actions\/{actionType}",
             "description": "Read all actions of the specified `actionType` visible to the authenticating API key. `all` can be used as the `actionType` to view actions of all types.",
@@ -462,11 +462,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "22e9b8f53fe79d7ad2680976a2d11536",
+            "collectionId": "01f7e9f1e7f8efcc9756c1db23000d0f",
             "rawModeData": ""
         },
         {
-            "id": "39682fa244a9a237659a2564ac0fb141",
+            "id": "d277d99c103f61df265db5aba8b17e53",
             "name": "Update an action type",
             "url": "http:\/\/api.evrythng.com\/\/actions\/{actionType}",
             "description": "Update an action type with new metadata.",
@@ -493,11 +493,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "22e9b8f53fe79d7ad2680976a2d11536",
+            "collectionId": "01f7e9f1e7f8efcc9756c1db23000d0f",
             "rawModeData": ""
         },
         {
-            "id": "d7d1b34f73b7f197cae3e072dfc3f453",
+            "id": "75d131681f57f427ca5bb3eb7f5adf97",
             "name": "Delete an action type",
             "url": "http:\/\/api.evrythng.com\/\/actions\/{actionType}",
             "description": "Delete an action type.",
@@ -524,11 +524,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "22e9b8f53fe79d7ad2680976a2d11536",
+            "collectionId": "01f7e9f1e7f8efcc9756c1db23000d0f",
             "rawModeData": ""
         },
         {
-            "id": "858c48c0b4a3eee20e8e3d41add643f2",
+            "id": "39e38ef4071c88fa775b32994808cc23",
             "name": "Read an action",
             "url": "http:\/\/api.evrythng.com\/\/actions\/{actionType}\/{actionId}",
             "description": "Read a single action by ID. You can use `all` as an `actionType` to read actions of unknown type.",
@@ -555,11 +555,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "22e9b8f53fe79d7ad2680976a2d11536",
+            "collectionId": "01f7e9f1e7f8efcc9756c1db23000d0f",
             "rawModeData": ""
         },
         {
-            "id": "8add4c9da4a8efecf7a066fb3cbbc151",
+            "id": "03539ac67b64e57b24d1fc992c4d0a25",
             "name": "Delete an action",
             "url": "http:\/\/api.evrythng.com\/\/actions\/{actionType}\/{actionId}",
             "description": "Delete an action by ID.",
@@ -586,11 +586,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "22e9b8f53fe79d7ad2680976a2d11536",
+            "collectionId": "01f7e9f1e7f8efcc9756c1db23000d0f",
             "rawModeData": ""
         },
         {
-            "id": "cfc77618335f3fdb0e7e078a98206b27",
+            "id": "c84454be47e0cca48d31de67f970e110",
             "name": "Read an action with context",
             "url": "http:\/\/api.evrythng.com\/\/actions\/{actionType}\/{actionId}?context=true",
             "description": "Read a single action by ID with context. The `?context=true` query parameter can be used to include the context field in the action read.",
@@ -617,11 +617,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "22e9b8f53fe79d7ad2680976a2d11536",
+            "collectionId": "01f7e9f1e7f8efcc9756c1db23000d0f",
             "rawModeData": ""
         },
         {
-            "id": "92350fba45f95d14fa73e83753598283",
+            "id": "71eafdd42070acd17409987fea63c970",
             "name": "Create an application",
             "url": "http:\/\/api.evrythng.com\/\/projects\/{projectId}\/applications",
             "description": "Create an application within a project. The object returned contains the `appApiKey` parameter, which is an Application API key that must be used within an external application to issue calls to the API. However, because this API key can be hard coded within external applications (e.g. mobile\/JS) and is visible to anyone, it can be used only for a very limited set of operations (create users, read a product, send actions etc.).",
@@ -648,11 +648,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "22e9b8f53fe79d7ad2680976a2d11536",
+            "collectionId": "01f7e9f1e7f8efcc9756c1db23000d0f",
             "rawModeData": ""
         },
         {
-            "id": "e37869931019e7ac9951ba9b2f4e754d",
+            "id": "e1816f532375daccae8b68f4a8802fce",
             "name": "Read all applications",
             "url": "http:\/\/api.evrythng.com\/\/projects\/{projectId}\/applications",
             "description": "Read all applications inside the specified project.",
@@ -679,11 +679,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "22e9b8f53fe79d7ad2680976a2d11536",
+            "collectionId": "01f7e9f1e7f8efcc9756c1db23000d0f",
             "rawModeData": ""
         },
         {
-            "id": "eb3914893ad0a59ee5dc2c5f8167446b",
+            "id": "7160befa0c4c23d26e157b169731a28a",
             "name": "Read an application",
             "url": "http:\/\/api.evrythng.com\/\/projects\/{projectId}\/applications\/{applicationId}",
             "description": "Read an application by `applicationId` in the project specified by `projectId`.",
@@ -710,11 +710,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "22e9b8f53fe79d7ad2680976a2d11536",
+            "collectionId": "01f7e9f1e7f8efcc9756c1db23000d0f",
             "rawModeData": ""
         },
         {
-            "id": "2b6ac51241e198f55b4bbbb91b58844e",
+            "id": "151ca7957d27b278a021ab6df3bbb8eb",
             "name": "Update an application",
             "url": "http:\/\/api.evrythng.com\/\/projects\/{projectId}\/applications\/{applicationId}",
             "description": "Update an application by `applicationId`.",
@@ -741,11 +741,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "22e9b8f53fe79d7ad2680976a2d11536",
+            "collectionId": "01f7e9f1e7f8efcc9756c1db23000d0f",
             "rawModeData": ""
         },
         {
-            "id": "0c9288275a801424be1cd89b09c1dfd0",
+            "id": "dd19202f32ad6064e47995f60d763096",
             "name": "Delete an application",
             "url": "http:\/\/api.evrythng.com\/\/projects\/{projectId}\/applications\/{applicationId}",
             "description": "Delete an application by `applicationId`.",
@@ -772,11 +772,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "22e9b8f53fe79d7ad2680976a2d11536",
+            "collectionId": "01f7e9f1e7f8efcc9756c1db23000d0f",
             "rawModeData": ""
         },
         {
-            "id": "581a6ca8f00c0efe9dd85e67999fef09",
+            "id": "94b76008bc7599836e61c374c9bdc8dd",
             "name": "Read self application",
             "url": "http:\/\/api.evrythng.com\/\/applications\/me",
             "description": "Read the self application of the authenticating Trusted App API Key.",
@@ -795,11 +795,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "22e9b8f53fe79d7ad2680976a2d11536",
+            "collectionId": "01f7e9f1e7f8efcc9756c1db23000d0f",
             "rawModeData": ""
         },
         {
-            "id": "1bcfe527fc0d0cfbea3ea4cafc3bad0d",
+            "id": "3c6805c77ccf3609e937a7c4323059f8",
             "name": "Update self application",
             "url": "http:\/\/api.evrythng.com\/\/applications\/me",
             "description": "Update the self application of the authenticating Trusted App API Key.",
@@ -826,11 +826,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "22e9b8f53fe79d7ad2680976a2d11536",
+            "collectionId": "01f7e9f1e7f8efcc9756c1db23000d0f",
             "rawModeData": ""
         },
         {
-            "id": "e972d6a60abd6dbc4b6cc4087e40ea26",
+            "id": "2e2131e4a60e7f2a82e4479e36341933",
             "name": "Read Trusted App API Key",
             "url": "http:\/\/api.evrythng.com\/\/projects\/{projectId}\/applications\/{applicationId}\/secretKey",
             "description": "Read the Trusted Application API key for the application with `applicationId`. This is a secret key that has access to more endpoints than the standard Application API key.",
@@ -857,11 +857,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "22e9b8f53fe79d7ad2680976a2d11536",
+            "collectionId": "01f7e9f1e7f8efcc9756c1db23000d0f",
             "rawModeData": ""
         },
         {
-            "id": "7bc93207ae4d0f13373af4b037039d1f",
+            "id": "ca75d37229bf3efb0b82d86b77eafa14",
             "name": "Create an Application User",
             "url": "http:\/\/api.evrythng.com\/\/auth\/evrythng\/users",
             "description": "Create a new unactivated Application User with a unique email address. The response contains an `activationCode` that must be returned to the API (See 'Activate an Application User') before it can access the API. This gives the client application an opportunity to ensure the email address has been validated.",
@@ -888,11 +888,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "22e9b8f53fe79d7ad2680976a2d11536",
+            "collectionId": "01f7e9f1e7f8efcc9756c1db23000d0f",
             "rawModeData": ""
         },
         {
-            "id": "6ab72644e4021ee4ee3c82894019803a",
+            "id": "5685075d692701443b0938af7423d1a4",
             "name": "Activate an Application User",
             "url": "http:\/\/api.evrythng.com\/\/auth\/evrythng\/users\/{evrythngUser}\/validate",
             "description": "Activate a new Application User using the `activationCode` provided in the 'Create an Application User' step.",
@@ -919,11 +919,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "22e9b8f53fe79d7ad2680976a2d11536",
+            "collectionId": "01f7e9f1e7f8efcc9756c1db23000d0f",
             "rawModeData": ""
         },
         {
-            "id": "64f0678fc4d6c4a2f5596d9f21f521e8",
+            "id": "91a3a04cd13e7ae62064dd70a617b10b",
             "name": "Create an anonymous user",
             "url": "http:\/\/api.evrythng.com\/\/auth\/evrythng\/users?anonymous=true",
             "description": "Create an anonymous Application User. These users are not associated with a real person, and are useful for tracking anonymous interactions.",
@@ -950,11 +950,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "22e9b8f53fe79d7ad2680976a2d11536",
+            "collectionId": "01f7e9f1e7f8efcc9756c1db23000d0f",
             "rawModeData": ""
         },
         {
-            "id": "0942339aefc28df5812ddbd3a2d36a41",
+            "id": "27525fae26d1728332021df07798835e",
             "name": "Read all Application Users",
             "url": "http:\/\/api.evrythng.com\/\/users",
             "description": "Read all visible application users.",
@@ -973,11 +973,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "22e9b8f53fe79d7ad2680976a2d11536",
+            "collectionId": "01f7e9f1e7f8efcc9756c1db23000d0f",
             "rawModeData": ""
         },
         {
-            "id": "1187b0bc5a4748f8e5df0ddd39c4aa43",
+            "id": "2ace0f7bb25efe72fb7acece05e0dc96",
             "name": "Read an Application User",
             "url": "http:\/\/api.evrythng.com\/\/users\/{evrythngUser}",
             "description": "Read a single Application User but their `evrythngUser` ID.",
@@ -1004,11 +1004,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "22e9b8f53fe79d7ad2680976a2d11536",
+            "collectionId": "01f7e9f1e7f8efcc9756c1db23000d0f",
             "rawModeData": ""
         },
         {
-            "id": "2117a8529e0bb557bdf35ce513d3d1e2",
+            "id": "d48bd89f35b2071c10730adc3ec92a37",
             "name": "Update an Application User",
             "url": "http:\/\/api.evrythng.com\/\/users\/{evrythngUser}",
             "description": "Update an existing Application User by their `evrythngUser` ID. Authorised Application Users can modify their own data (including the password) using their API key.",
@@ -1035,11 +1035,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "22e9b8f53fe79d7ad2680976a2d11536",
+            "collectionId": "01f7e9f1e7f8efcc9756c1db23000d0f",
             "rawModeData": ""
         },
         {
-            "id": "25049f562a131dd1dc4d31752e4c8766",
+            "id": "75b1902df68209b9a490dbd8f35aab7f",
             "name": "Delete an Application User",
             "url": "http:\/\/api.evrythng.com\/\/users\/{evrythngUser}",
             "description": "Delete an Application User by its `evrythngUser` ID.",
@@ -1066,11 +1066,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "22e9b8f53fe79d7ad2680976a2d11536",
+            "collectionId": "01f7e9f1e7f8efcc9756c1db23000d0f",
             "rawModeData": ""
         },
         {
-            "id": "7bcd0f5b0a751245bd2c1d86537353fb",
+            "id": "34fe420cb9988c0c0639540bfed8ffc1",
             "name": "Log an Application User out",
             "url": "http:\/\/api.evrythng.com\/\/auth\/all\/logout",
             "description": "Log an Application User out and invalidate their Application User API key.",
@@ -1089,11 +1089,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "22e9b8f53fe79d7ad2680976a2d11536",
+            "collectionId": "01f7e9f1e7f8efcc9756c1db23000d0f",
             "rawModeData": ""
         },
         {
-            "id": "0678786e558ed7484099f812516fd9ff",
+            "id": "ba9a6b6104741289c3480f79d0ae8c62",
             "name": "Log an Application User in",
             "url": "http:\/\/api.evrythng.com\/\/auth\/evrythng",
             "description": "Authenticate (log in) an existing user using their original `email` and `password` used at creation time.",
@@ -1120,11 +1120,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "22e9b8f53fe79d7ad2680976a2d11536",
+            "collectionId": "01f7e9f1e7f8efcc9756c1db23000d0f",
             "rawModeData": ""
         },
         {
-            "id": "fdefea7e0ca4298555a54597fb7b0391",
+            "id": "f812fd1498d254b120254400353ab289",
             "name": "Log In with Access Info",
             "url": "http:\/\/api.evrythng.com\/\/users\/login",
             "description": "Log an Application User in and obtain access details.",
@@ -1151,11 +1151,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "22e9b8f53fe79d7ad2680976a2d11536",
+            "collectionId": "01f7e9f1e7f8efcc9756c1db23000d0f",
             "rawModeData": ""
         },
         {
-            "id": "44aa023776957a600d5534900b7ce3e0",
+            "id": "cdaad74a3670a185fc815de1584c7698",
             "name": "Create a batch",
             "url": "http:\/\/api.evrythng.com\/\/batches",
             "description": "Create a batch.",
@@ -1182,11 +1182,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "22e9b8f53fe79d7ad2680976a2d11536",
+            "collectionId": "01f7e9f1e7f8efcc9756c1db23000d0f",
             "rawModeData": ""
         },
         {
-            "id": "16506759f960ea3549122d02ea00abfc",
+            "id": "b7ddf7261efc77d5b6fa2ba32541d56d",
             "name": "Read all batches",
             "url": "http:\/\/api.evrythng.com\/\/batches",
             "description": "Read all available batches. Use a filter to retrieve a subset of all batches created.",
@@ -1205,11 +1205,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "22e9b8f53fe79d7ad2680976a2d11536",
+            "collectionId": "01f7e9f1e7f8efcc9756c1db23000d0f",
             "rawModeData": ""
         },
         {
-            "id": "b262feef19bb11d021edec713e9ced52",
+            "id": "8f19d805a6359e00dc7ab611acdae5c4",
             "name": "Read a batch",
             "url": "http:\/\/api.evrythng.com\/\/batches\/{batchId}",
             "description": "Read a single batch by ID.",
@@ -1236,11 +1236,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "22e9b8f53fe79d7ad2680976a2d11536",
+            "collectionId": "01f7e9f1e7f8efcc9756c1db23000d0f",
             "rawModeData": ""
         },
         {
-            "id": "e2b7233def255294410ce1ca93c151d2",
+            "id": "5d6a161e757e44b0db311436f39ba042",
             "name": "Update a batch",
             "url": "http:\/\/api.evrythng.com\/\/batches\/{batchId}",
             "description": "Update a batch by ID. Nested fields such as `tags` are replaced with the new value in the payload.",
@@ -1267,11 +1267,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "22e9b8f53fe79d7ad2680976a2d11536",
+            "collectionId": "01f7e9f1e7f8efcc9756c1db23000d0f",
             "rawModeData": ""
         },
         {
-            "id": "1cfe1d2bf24d151b2868dbbec63ba6c8",
+            "id": "ed41abeb9a788b848b02cd5a2cd17723",
             "name": "Delete a batch",
             "url": "http:\/\/api.evrythng.com\/\/batches\/{batchId}",
             "description": "Delete a batch by ID. Deleting the batch will not delete the tasks and Thngs in it, which must be deleted separately.",
@@ -1298,11 +1298,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "22e9b8f53fe79d7ad2680976a2d11536",
+            "collectionId": "01f7e9f1e7f8efcc9756c1db23000d0f",
             "rawModeData": ""
         },
         {
-            "id": "da3d61c677f804ffba66ad9321ba6a7c",
+            "id": "655741f36e3b640a92a20fa830006806",
             "name": "Read all connectors",
             "url": "http:\/\/api.evrythng.com\/\/connectors",
             "description": "Read a list of connectors that are visible to the Application User authenticating this request with their Application User API Key.",
@@ -1321,11 +1321,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "22e9b8f53fe79d7ad2680976a2d11536",
+            "collectionId": "01f7e9f1e7f8efcc9756c1db23000d0f",
             "rawModeData": ""
         },
         {
-            "id": "b0142b9490a54e7bd23cc20d3f70a3a5",
+            "id": "306b4f249035ad680a6260f37bf2f964",
             "name": "Read a connector",
             "url": "http:\/\/api.evrythng.com\/\/connectors\/{connectorName}",
             "description": "Read a single connector by name as the authenticating Application User.",
@@ -1352,11 +1352,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "22e9b8f53fe79d7ad2680976a2d11536",
+            "collectionId": "01f7e9f1e7f8efcc9756c1db23000d0f",
             "rawModeData": ""
         },
         {
-            "id": "df658e7fd5e86c14ec8cb4fb6f57044b",
+            "id": "b31e8e0779c3bd62fc0916a8cf74f80c",
             "name": "Authenticate through connector",
             "url": "http:\/\/api.evrythng.com\/\/connectors\/{connectorName}\/auth",
             "description": "Authenticate the connector service through redirection.",
@@ -1383,11 +1383,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "22e9b8f53fe79d7ad2680976a2d11536",
+            "collectionId": "01f7e9f1e7f8efcc9756c1db23000d0f",
             "rawModeData": ""
         },
         {
-            "id": "502b3f9df83132be5b637a7c36d17e78",
+            "id": "4c8d2ce0ea856f686b33bf205139ec35",
             "name": "Authenticate with an existing token",
             "url": "http:\/\/api.evrythng.com\/\/connectors\/{connectorName}\/auth\/token",
             "description": "Authenticate with the connector service using an existing OAuth token.",
@@ -1414,11 +1414,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "22e9b8f53fe79d7ad2680976a2d11536",
+            "collectionId": "01f7e9f1e7f8efcc9756c1db23000d0f",
             "rawModeData": ""
         },
         {
-            "id": "0debbc6bd2451d1b08d5f107dc47290e",
+            "id": "21710270e463b6a74869d2f624ec04dd",
             "name": "Create a connector",
             "url": "http:\/\/api.evrythng.com\/\/projects\/{projectId}\/applications\/{applicationId}\/connectors",
             "description": "To enable a third party integration for a specific application, `POST` a connector model describing the configuration of the connection with the third party cloud. Only the Operator can enable connectors in an application. For Nest connectors, the `auth` credentials can be found in the Nest Developers console.",
@@ -1445,11 +1445,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "22e9b8f53fe79d7ad2680976a2d11536",
+            "collectionId": "01f7e9f1e7f8efcc9756c1db23000d0f",
             "rawModeData": ""
         },
         {
-            "id": "a59b14d171264580e3435e3a098b3ae4",
+            "id": "49047c5231f6031f1ab2bca7876397f5",
             "name": "Read all connectors",
             "url": "http:\/\/api.evrythng.com\/\/projects\/{projectId}\/applications\/{applicationId}\/connectors",
             "description": "Read all connectors in an application.",
@@ -1476,11 +1476,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "22e9b8f53fe79d7ad2680976a2d11536",
+            "collectionId": "01f7e9f1e7f8efcc9756c1db23000d0f",
             "rawModeData": ""
         },
         {
-            "id": "354dee41e4c361f96f2226b2bd3a91a9",
+            "id": "968ebac3687f295a72c6d593e69afc51",
             "name": "Read an app connector",
             "url": "http:\/\/api.evrythng.com\/\/projects\/{projectId}\/applications\/{applicationId}\/connectors\/{connectorName}",
             "description": "Read a single connector by name within an application.",
@@ -1507,11 +1507,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "22e9b8f53fe79d7ad2680976a2d11536",
+            "collectionId": "01f7e9f1e7f8efcc9756c1db23000d0f",
             "rawModeData": ""
         },
         {
-            "id": "5cdc1089c5565ebfe5c4769a71f9bb9f",
+            "id": "a6ab2c328bc2aefc02906ae0e5071e38",
             "name": "Update a connector",
             "url": "http:\/\/api.evrythng.com\/\/projects\/{projectId}\/applications\/{applicationId}\/connectors\/{connectorName}",
             "description": "Update a single connector by name. Not all the fields of a connector can be updated. If the authentication parameters changed, this is considered to be a new connector and it must to be created separately as a new resource.",
@@ -1538,11 +1538,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "22e9b8f53fe79d7ad2680976a2d11536",
+            "collectionId": "01f7e9f1e7f8efcc9756c1db23000d0f",
             "rawModeData": ""
         },
         {
-            "id": "058a774bb67bc85a1957859986030c50",
+            "id": "a893a60e3a79c23a3dd0d92db333e945",
             "name": "Delete a connector",
             "url": "http:\/\/api.evrythng.com\/\/projects\/{projectId}\/applications\/{applicationId}\/connectors\/{connectorName}",
             "description": "Delete a single connector by name. Deleting a connector for an application will delete all the Thngs that were imported from the third party cloud.",
@@ -1569,11 +1569,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "22e9b8f53fe79d7ad2680976a2d11536",
+            "collectionId": "01f7e9f1e7f8efcc9756c1db23000d0f",
             "rawModeData": ""
         },
         {
-            "id": "55c979049e7026f3106ada62315f7ff4",
+            "id": "41cbccf4a9c1ca97ac978a758c4cea5d",
             "name": "Create a collection",
             "url": "http:\/\/api.evrythng.com\/\/collections",
             "description": "Create a new collection. Resources can then be added to that collection with further `PUT` requests specifying the collection ID.",
@@ -1600,11 +1600,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "22e9b8f53fe79d7ad2680976a2d11536",
+            "collectionId": "01f7e9f1e7f8efcc9756c1db23000d0f",
             "rawModeData": ""
         },
         {
-            "id": "7bc475932ddbf986598418422fd24dfd",
+            "id": "d8d6eb3c2e35f669ea14cc7255703187",
             "name": "Read all collections",
             "url": "http:\/\/api.evrythng.com\/\/collections",
             "description": "Read all collections available in an account.",
@@ -1623,11 +1623,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "22e9b8f53fe79d7ad2680976a2d11536",
+            "collectionId": "01f7e9f1e7f8efcc9756c1db23000d0f",
             "rawModeData": ""
         },
         {
-            "id": "dacbf3ac4b8d8ce751f22a550070a0c3",
+            "id": "8734987c6f18a9f16d57c69756d2e2e7",
             "name": "Read a collection",
             "url": "http:\/\/api.evrythng.com\/\/collections\/{collectionId}",
             "description": "Read a single collection by ID.",
@@ -1654,11 +1654,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "22e9b8f53fe79d7ad2680976a2d11536",
+            "collectionId": "01f7e9f1e7f8efcc9756c1db23000d0f",
             "rawModeData": ""
         },
         {
-            "id": "3594e03eb990bf6f33c10023e994a5f3",
+            "id": "bbcfec2bd8c7ddeb4332e1df7b59f0c9",
             "name": "Update a collection",
             "url": "http:\/\/api.evrythng.com\/\/collections\/{collectionId}",
             "description": "Update a collection by ID. Nested fields such as `tags` are replaced with the new version in the payload. There is a limit of 10,000 Thngs updated per API call on collections. If your collection contains more than 10,000 elements you should consider an iterative solution.",
@@ -1685,11 +1685,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "22e9b8f53fe79d7ad2680976a2d11536",
+            "collectionId": "01f7e9f1e7f8efcc9756c1db23000d0f",
             "rawModeData": ""
         },
         {
-            "id": "223903ff13ea59d5945463cc126f9628",
+            "id": "3602e94090f4ecfe9134a311d5ff88c5",
             "name": "Delete a collection",
             "url": "http:\/\/api.evrythng.com\/\/collections\/{collectionId}",
             "description": "Delete a collection by ID.",
@@ -1716,11 +1716,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "22e9b8f53fe79d7ad2680976a2d11536",
+            "collectionId": "01f7e9f1e7f8efcc9756c1db23000d0f",
             "rawModeData": ""
         },
         {
-            "id": "d2ed6f1a6fee920fd0e5a841abab9431",
+            "id": "1d0f8ee5445262af76f4c13d68907326",
             "name": "Create a collection action",
             "url": "http:\/\/api.evrythng.com\/\/collections\/{collectionId}\/actions\/{actionType}",
             "description": "Create an action on a collection.",
@@ -1747,11 +1747,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "22e9b8f53fe79d7ad2680976a2d11536",
+            "collectionId": "01f7e9f1e7f8efcc9756c1db23000d0f",
             "rawModeData": ""
         },
         {
-            "id": "d7362901a3984e857329c0bef7a46310",
+            "id": "d2b40210d50f328d5ed559ed040b968a",
             "name": "Read all collection actions",
             "url": "http:\/\/api.evrythng.com\/\/collections\/{collectionId}\/actions\/{actionType}",
             "description": "Read all actions on a collection.",
@@ -1778,11 +1778,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "22e9b8f53fe79d7ad2680976a2d11536",
+            "collectionId": "01f7e9f1e7f8efcc9756c1db23000d0f",
             "rawModeData": ""
         },
         {
-            "id": "27bb5858befd93a33373f6fb504dd0c7",
+            "id": "ef5cc01454270135688e5d15ddf62f24",
             "name": "Read a collection action",
             "url": "http:\/\/api.evrythng.com\/\/collections\/{collectionId}\/actions\/{actionType}\/{actionId}",
             "description": "Read an action on a collection by ID.",
@@ -1809,11 +1809,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "22e9b8f53fe79d7ad2680976a2d11536",
+            "collectionId": "01f7e9f1e7f8efcc9756c1db23000d0f",
             "rawModeData": ""
         },
         {
-            "id": "9562ab45381727cf6cc221f26414a48c",
+            "id": "053086887672d51280447528d63f9954",
             "name": "Add collections to a collection",
             "url": "http:\/\/api.evrythng.com\/\/collections\/{collectionId}\/collections",
             "description": "Add collections to a collection.",
@@ -1840,11 +1840,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "22e9b8f53fe79d7ad2680976a2d11536",
+            "collectionId": "01f7e9f1e7f8efcc9756c1db23000d0f",
             "rawModeData": ""
         },
         {
-            "id": "cf04d8bbcd99492a16c13f19a33879c8",
+            "id": "ef8ee39a37b3c323443f8f73712e8a6b",
             "name": "Read all collections in a collections",
             "url": "http:\/\/api.evrythng.com\/\/collections\/{collectionId}\/collections",
             "description": "Read all collections in a collection.",
@@ -1871,11 +1871,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "22e9b8f53fe79d7ad2680976a2d11536",
+            "collectionId": "01f7e9f1e7f8efcc9756c1db23000d0f",
             "rawModeData": ""
         },
         {
-            "id": "3356bb7f9938d776e0182115724034b3",
+            "id": "b197f455534b278cb477380038bfa83a",
             "name": "Remove all collections in a collection",
             "url": "http:\/\/api.evrythng.com\/\/collections\/{collectionId}\/collections",
             "description": "Remove all collections from a parent collection.",
@@ -1902,11 +1902,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "22e9b8f53fe79d7ad2680976a2d11536",
+            "collectionId": "01f7e9f1e7f8efcc9756c1db23000d0f",
             "rawModeData": ""
         },
         {
-            "id": "feb5c90a154795ae514477f14d69e959",
+            "id": "1054ef503161c419426c6d3bd4bf5bd4",
             "name": "Remove a collection from a collection",
             "url": "http:\/\/api.evrythng.com\/\/collections\/{collectionId}\/collections\/{childCollectionId}",
             "description": "Remove a collection from a parent collection.",
@@ -1933,11 +1933,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "22e9b8f53fe79d7ad2680976a2d11536",
+            "collectionId": "01f7e9f1e7f8efcc9756c1db23000d0f",
             "rawModeData": ""
         },
         {
-            "id": "a5de897fa5a3b8f680630055591f3eda",
+            "id": "7fddec7739fa81eb9e5b6a1b5597c486",
             "name": "Add Thngs to a collection",
             "url": "http:\/\/api.evrythng.com\/\/collections\/{collectionId}\/thngs",
             "description": "Add Thngs to a collection. The maximum number of Thngs that can be added to a collection is 10,000 per request.",
@@ -1964,11 +1964,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "22e9b8f53fe79d7ad2680976a2d11536",
+            "collectionId": "01f7e9f1e7f8efcc9756c1db23000d0f",
             "rawModeData": ""
         },
         {
-            "id": "3b2ef4f84163420df09bcc4a0a5caf70",
+            "id": "f47aced52e1c4fadc13f8389c7a12de7",
             "name": "Read all Thngs in a collection",
             "url": "http:\/\/api.evrythng.com\/\/collections\/{collectionId}\/thngs",
             "description": "Read all Thngs in a collection.",
@@ -1995,11 +1995,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "22e9b8f53fe79d7ad2680976a2d11536",
+            "collectionId": "01f7e9f1e7f8efcc9756c1db23000d0f",
             "rawModeData": ""
         },
         {
-            "id": "fd98ea632952f7b58d1bbb88b82073ac",
+            "id": "84ba08806eb6f0258360d59b3d1690e5",
             "name": "Remove all Thngs from a collection",
             "url": "http:\/\/api.evrythng.com\/\/collections\/{collectionId}\/thngs",
             "description": "Remove all Thngs from a collection. Note that this does not delete the actual Thngs themselves.",
@@ -2026,11 +2026,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "22e9b8f53fe79d7ad2680976a2d11536",
+            "collectionId": "01f7e9f1e7f8efcc9756c1db23000d0f",
             "rawModeData": ""
         },
         {
-            "id": "3e9c8a9c5fc4148618db95af0aac6e4c",
+            "id": "a2de0be7821d7a93894d25f2a1a1e889",
             "name": "Remove a Thng from a collection",
             "url": "http:\/\/api.evrythng.com\/\/collections\/{collectionId}\/thngs\/{thngId}",
             "description": "Remove a Thng from a collection. There is a limit of 500 Thngs removed per API call on collections. If your collection contains more than 500 elements you should consider an iterative solution.",
@@ -2057,11 +2057,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "22e9b8f53fe79d7ad2680976a2d11536",
+            "collectionId": "01f7e9f1e7f8efcc9756c1db23000d0f",
             "rawModeData": ""
         },
         {
-            "id": "bae2f6e9afa80a9e3c40dec8bf8f13e5",
+            "id": "3c7fb973620e0e09058c94a26689262e",
             "name": "Read account domains",
             "url": "http:\/\/api.evrythng.com\/\/accounts\/{accountId}\/domains",
             "description": "Read all domains available to an account.",
@@ -2088,11 +2088,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "22e9b8f53fe79d7ad2680976a2d11536",
+            "collectionId": "01f7e9f1e7f8efcc9756c1db23000d0f",
             "rawModeData": ""
         },
         {
-            "id": "ba1b9a0e9b471ad4cec5a220d67bd21d",
+            "id": "801952fec1a62d53debd9b0f85a828ff",
             "name": "Create a file",
             "url": "http:\/\/api.evrythng.com\/\/files",
             "description": "Create remote file metadata. This operation is the basis for a remote file upload. A successful HTTP `POST` will create a `FileDocument` record with a unique ID and a transient `uploadUrl` field. This signed `uploadUrl` can then be used by a client with an HTTP `PUT` request to do the actual upload to remote storage. The `uploadUrl` will expire after 30 minutes. The input payload to this endpoint should also contain a setting for the `privateAccess` field to indicate whether the file should have",
@@ -2119,11 +2119,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "22e9b8f53fe79d7ad2680976a2d11536",
+            "collectionId": "01f7e9f1e7f8efcc9756c1db23000d0f",
             "rawModeData": ""
         },
         {
-            "id": "e9bb664ea25802e34b3b3280e39df71b",
+            "id": "8b64e445db9fef98d9657e819d5010ce",
             "name": "Read all files",
             "url": "http:\/\/api.evrythng.com\/\/files",
             "description": "Read all remote file metadata items.",
@@ -2142,11 +2142,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "22e9b8f53fe79d7ad2680976a2d11536",
+            "collectionId": "01f7e9f1e7f8efcc9756c1db23000d0f",
             "rawModeData": ""
         },
         {
-            "id": "b0f89f3c788c6ae00168d9abcc4eb54b",
+            "id": "be4052270d31927a2c35c4f6298adc38",
             "name": "Read a file",
             "url": "http:\/\/api.evrythng.com\/\/files\/{fileId}",
             "description": "Read a single remote file metadata item by ID.",
@@ -2173,11 +2173,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "22e9b8f53fe79d7ad2680976a2d11536",
+            "collectionId": "01f7e9f1e7f8efcc9756c1db23000d0f",
             "rawModeData": ""
         },
         {
-            "id": "0135215e4fdb9eea1f466b680ed5ca18",
+            "id": "38b72329928954857ecc85ea1f9b45c6",
             "name": "Delete a file",
             "url": "http:\/\/api.evrythng.com\/\/files\/{fileId}",
             "description": "Delete a single remote file metadata item by ID.",
@@ -2204,11 +2204,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "22e9b8f53fe79d7ad2680976a2d11536",
+            "collectionId": "01f7e9f1e7f8efcc9756c1db23000d0f",
             "rawModeData": ""
         },
         {
-            "id": "e2fcef0cc3875a01bb13ad83a469738f",
+            "id": "87265701ee39d99a7b63ac00f2b4ad31",
             "name": "Identify from an image",
             "url": "http:\/\/api.evrythng.com\/\/scan\/identifications",
             "description": "Identify a 1D or 2D barcode from an uploaded image.",
@@ -2235,11 +2235,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "22e9b8f53fe79d7ad2680976a2d11536",
+            "collectionId": "01f7e9f1e7f8efcc9756c1db23000d0f",
             "rawModeData": ""
         },
         {
-            "id": "a4eae7b5d5a374d44ce7ecd839dbfa1f",
+            "id": "c4312dbe2bfaffac5d300f06e5631a63",
             "name": "Read an identifier",
             "url": "http:\/\/api.evrythng.com\/\/scan\/identifications",
             "description": "Read a known identifier for its resource.",
@@ -2266,11 +2266,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "22e9b8f53fe79d7ad2680976a2d11536",
+            "collectionId": "01f7e9f1e7f8efcc9756c1db23000d0f",
             "rawModeData": ""
         },
         {
-            "id": "469e9f9f552a70aa39912c2126c3d6d9",
+            "id": "6331ed7b1c0538aebd16e61de7a31fcb",
             "name": "Create an OAuth client",
             "url": "http:\/\/api.evrythng.com\/\/projects\/{projectId}\/applications\/{applicationId}\/oauthClients",
             "description": "Registers a new OAuth client.",
@@ -2297,11 +2297,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "22e9b8f53fe79d7ad2680976a2d11536",
+            "collectionId": "01f7e9f1e7f8efcc9756c1db23000d0f",
             "rawModeData": ""
         },
         {
-            "id": "f3ac502abf2ca7cf516413c87a51c133",
+            "id": "9ecfd9c2d3ee3562e85ee2d2764ee793",
             "name": "Read all OAuth clients",
             "url": "http:\/\/api.evrythng.com\/\/projects\/{projectId}\/applications\/{applicationId}\/oauthClients",
             "description": "Read all registered OAuth clients in an application.",
@@ -2328,11 +2328,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "22e9b8f53fe79d7ad2680976a2d11536",
+            "collectionId": "01f7e9f1e7f8efcc9756c1db23000d0f",
             "rawModeData": ""
         },
         {
-            "id": "0def309671088fd2d1602c658c452046",
+            "id": "e5285c4f3d59e425e80bf819644a5f9f",
             "name": "Read an OAuth client",
             "url": "http:\/\/api.evrythng.com\/\/projects\/{projectId}\/applications\/{applicationId}\/oauthClients\/{clientId}",
             "description": "Read a specific OAuth client by ID.",
@@ -2359,11 +2359,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "22e9b8f53fe79d7ad2680976a2d11536",
+            "collectionId": "01f7e9f1e7f8efcc9756c1db23000d0f",
             "rawModeData": ""
         },
         {
-            "id": "d2d92ffa29ad215c7fb47147243cf1ca",
+            "id": "3cb4db476ece86326521af3c2ab952d2",
             "name": "Update an OAuth client",
             "url": "http:\/\/api.evrythng.com\/\/projects\/{projectId}\/applications\/{applicationId}\/oauthClients\/{clientId}",
             "description": "Update an OAuth client by ID. As soon as the redirect URL is modified, the old URL is not used for a user's redirection.",
@@ -2390,11 +2390,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "22e9b8f53fe79d7ad2680976a2d11536",
+            "collectionId": "01f7e9f1e7f8efcc9756c1db23000d0f",
             "rawModeData": ""
         },
         {
-            "id": "372d03db475235f9999ef7854aa57a49",
+            "id": "ddbc79d50cfa00ce76cd326b0145e40d",
             "name": "Delete an OAuth client",
             "url": "http:\/\/api.evrythng.com\/\/projects\/{projectId}\/applications\/{applicationId}\/oauthClients\/{clientId}",
             "description": "Delete an OAuth client by ID. After the client is removed, it is not allowed to obtain the Application User access token anymore.",
@@ -2421,11 +2421,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "22e9b8f53fe79d7ad2680976a2d11536",
+            "collectionId": "01f7e9f1e7f8efcc9756c1db23000d0f",
             "rawModeData": ""
         },
         {
-            "id": "df095a24ecbca4325fc5f1ed61f3459d",
+            "id": "2bbc100ad3e929028d6fe1d895b89703",
             "name": "Create a place",
             "url": "http:\/\/api.evrythng.com\/\/places",
             "description": "Create a new place.",
@@ -2452,11 +2452,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "22e9b8f53fe79d7ad2680976a2d11536",
+            "collectionId": "01f7e9f1e7f8efcc9756c1db23000d0f",
             "rawModeData": ""
         },
         {
-            "id": "99395638933ac876a027818506a5c456",
+            "id": "1235dd4b0c927ae085e001a80f47ba97",
             "name": "Read all places",
             "url": "http:\/\/api.evrythng.com\/\/places",
             "description": "Read all places in an account, with an optional search origin and distance.",
@@ -2483,11 +2483,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "22e9b8f53fe79d7ad2680976a2d11536",
+            "collectionId": "01f7e9f1e7f8efcc9756c1db23000d0f",
             "rawModeData": ""
         },
         {
-            "id": "36d369567f418e7888b32b3832b4cad7",
+            "id": "1b1d598b2a8f1aeb8325f54eca1a14ef",
             "name": "Read a place",
             "url": "http:\/\/api.evrythng.com\/\/places\/{placeId}",
             "description": "Read a place by ID.",
@@ -2514,11 +2514,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "22e9b8f53fe79d7ad2680976a2d11536",
+            "collectionId": "01f7e9f1e7f8efcc9756c1db23000d0f",
             "rawModeData": ""
         },
         {
-            "id": "7bbe46ea2391b078094c52671a660b70",
+            "id": "3d4af9a419e15e84e0f81247247e01b0",
             "name": "Update a place",
             "url": "http:\/\/api.evrythng.com\/\/places\/{placeId}",
             "description": "Update a place by ID. The old fields are entirely overwritten by the new values, so to add a tag for example you must submit the previous tag array including the new tags.",
@@ -2545,11 +2545,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "22e9b8f53fe79d7ad2680976a2d11536",
+            "collectionId": "01f7e9f1e7f8efcc9756c1db23000d0f",
             "rawModeData": ""
         },
         {
-            "id": "c3a9d370b91d703b5a84fd1481effc53",
+            "id": "f88677c1003276d92434c3c674bb3985",
             "name": "Delete a place",
             "url": "http:\/\/api.evrythng.com\/\/places\/{placeId}",
             "description": "Delete a place by ID.",
@@ -2576,11 +2576,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "22e9b8f53fe79d7ad2680976a2d11536",
+            "collectionId": "01f7e9f1e7f8efcc9756c1db23000d0f",
             "rawModeData": ""
         },
         {
-            "id": "70fb97f7a06c0dab5929732c242214ed",
+            "id": "390020f9d1d25487f69cca762e3e26d1",
             "name": "Create a policy",
             "url": "http:\/\/api.evrythng.com\/\/roles\/{roleId}\/policies",
             "description": "Create a new policy to apply a schema to a role.",
@@ -2607,11 +2607,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "22e9b8f53fe79d7ad2680976a2d11536",
+            "collectionId": "01f7e9f1e7f8efcc9756c1db23000d0f",
             "rawModeData": ""
         },
         {
-            "id": "8adc2fbc1e9def51d14abc51790a9271",
+            "id": "39f5fd226a9b359791c12783bf618537",
             "name": "Read all policies",
             "url": "http:\/\/api.evrythng.com\/\/roles\/{roleId}\/policies",
             "description": "Read all policies for a given role ID.",
@@ -2638,11 +2638,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "22e9b8f53fe79d7ad2680976a2d11536",
+            "collectionId": "01f7e9f1e7f8efcc9756c1db23000d0f",
             "rawModeData": ""
         },
         {
-            "id": "cab3da17a85c8798cde668d04645ed21",
+            "id": "6a538880235256fb35eb2fd0508c6132",
             "name": "Read a policy",
             "url": "http:\/\/api.evrythng.com\/\/roles\/{roleId}\/policies\/{policyId}",
             "description": "Read a single policy on a role by ID.",
@@ -2669,11 +2669,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "22e9b8f53fe79d7ad2680976a2d11536",
+            "collectionId": "01f7e9f1e7f8efcc9756c1db23000d0f",
             "rawModeData": ""
         },
         {
-            "id": "420e001b563f9720d21f3121be381b59",
+            "id": "d96e3abd77b8c60b5af286cc5627c4ed",
             "name": "Delete a policy",
             "url": "http:\/\/api.evrythng.com\/\/roles\/{roleId}\/policies\/{policyId}",
             "description": "Delete a single policy on a role by ID.",
@@ -2700,11 +2700,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "22e9b8f53fe79d7ad2680976a2d11536",
+            "collectionId": "01f7e9f1e7f8efcc9756c1db23000d0f",
             "rawModeData": ""
         },
         {
-            "id": "f95b9e33e81137c452fa43d85637ff6f",
+            "id": "1814494dcc2cc8543839b5eafd6594f1",
             "name": "Create a product",
             "url": "http:\/\/api.evrythng.com\/\/products",
             "description": "Create a new product. The ID returned can be then stored in the `product` field of any Thng in the platform, which denotes that that Thng is a unique instance of this particular product.",
@@ -2731,11 +2731,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "22e9b8f53fe79d7ad2680976a2d11536",
+            "collectionId": "01f7e9f1e7f8efcc9756c1db23000d0f",
             "rawModeData": ""
         },
         {
-            "id": "d91fc276a0f4ae592579bb9242d84ced",
+            "id": "d6dcc37c83a605549f443e2aaf90c9a0",
             "name": "Read all products",
             "url": "http:\/\/api.evrythng.com\/\/products",
             "description": "Read all products in the account.",
@@ -2754,11 +2754,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "22e9b8f53fe79d7ad2680976a2d11536",
+            "collectionId": "01f7e9f1e7f8efcc9756c1db23000d0f",
             "rawModeData": ""
         },
         {
-            "id": "a0b2f56fa0670d9c810e7c6274dbcbda",
+            "id": "b5a2099ac2ba5dd73376c17a15c7dfe7",
             "name": "Read a product",
             "url": "http:\/\/api.evrythng.com\/\/products\/{productId}",
             "description": "Read a single product.",
@@ -2785,11 +2785,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "22e9b8f53fe79d7ad2680976a2d11536",
+            "collectionId": "01f7e9f1e7f8efcc9756c1db23000d0f",
             "rawModeData": ""
         },
         {
-            "id": "1cfe3d866589ba50065bada03be46e44",
+            "id": "aa67bb283c1d1e4addf4ce76b4755a2b",
             "name": "Update a product",
             "url": "http:\/\/api.evrythng.com\/\/products\/{productId}",
             "description": "Update a product by ID.",
@@ -2816,11 +2816,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "22e9b8f53fe79d7ad2680976a2d11536",
+            "collectionId": "01f7e9f1e7f8efcc9756c1db23000d0f",
             "rawModeData": ""
         },
         {
-            "id": "2fb87a046e35b6556fedadcf062739e8",
+            "id": "89b1c61dc73e249776183591c63e953d",
             "name": "Delete a product",
             "url": "http:\/\/api.evrythng.com\/\/products\/{productId}",
             "description": "Delete a product by ID. Deleting a product resource will remove its reference from all Thngs that point to it. This cannot be reversed!",
@@ -2847,11 +2847,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "22e9b8f53fe79d7ad2680976a2d11536",
+            "collectionId": "01f7e9f1e7f8efcc9756c1db23000d0f",
             "rawModeData": ""
         },
         {
-            "id": "d2923e72bdb3d2af49088287f0a9bf87",
+            "id": "838cffe2c4ba909be80fb2b034665d4f",
             "name": "Create a product action",
             "url": "http:\/\/api.evrythng.com\/\/products\/{productId}\/actions\/{actionType}",
             "description": "Create an action on a product.",
@@ -2878,11 +2878,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "22e9b8f53fe79d7ad2680976a2d11536",
+            "collectionId": "01f7e9f1e7f8efcc9756c1db23000d0f",
             "rawModeData": ""
         },
         {
-            "id": "cde8dab5a2012a685207398903cd03be",
+            "id": "1d67db619494ad5967a8831565e75d0d",
             "name": "Read all product actions",
             "url": "http:\/\/api.evrythng.com\/\/products\/{productId}\/actions\/{actionType}",
             "description": "Read all actions created on a product.",
@@ -2909,11 +2909,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "22e9b8f53fe79d7ad2680976a2d11536",
+            "collectionId": "01f7e9f1e7f8efcc9756c1db23000d0f",
             "rawModeData": ""
         },
         {
-            "id": "b3f499dd275c07d9e8d09de54acc12c9",
+            "id": "a51c2e92337cde28b6730fa52d33c259",
             "name": "Read a product action",
             "url": "http:\/\/api.evrythng.com\/\/products\/{productId}\/actions\/{actionType}\/{actionId}",
             "description": "Read an action on a product by ID.",
@@ -2940,11 +2940,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "22e9b8f53fe79d7ad2680976a2d11536",
+            "collectionId": "01f7e9f1e7f8efcc9756c1db23000d0f",
             "rawModeData": ""
         },
         {
-            "id": "783ff546aac92a629b2ad4f698422e9b",
+            "id": "f0fde7f8e9dc5e19c6c6c46d7bdedd64",
             "name": "Create a product's redirection",
             "url": "http:\/\/api.evrythng.com\/\/products\/{productId}\/redirector",
             "description": "Create a product's redirection.",
@@ -2971,11 +2971,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "22e9b8f53fe79d7ad2680976a2d11536",
+            "collectionId": "01f7e9f1e7f8efcc9756c1db23000d0f",
             "rawModeData": ""
         },
         {
-            "id": "834ce0edb71ed26451e7f6dc84cc6b55",
+            "id": "75950f06e35b65a7e04dabf55965efa6",
             "name": "Read a product's redirection",
             "url": "http:\/\/api.evrythng.com\/\/products\/{productId}\/redirector",
             "description": "Read a product's redirection.",
@@ -3002,11 +3002,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "22e9b8f53fe79d7ad2680976a2d11536",
+            "collectionId": "01f7e9f1e7f8efcc9756c1db23000d0f",
             "rawModeData": ""
         },
         {
-            "id": "f7d34072438916aced7a4026608f4840",
+            "id": "989ceb1b6be097f9245373bcdbe2857e",
             "name": "Update a product's redirection",
             "url": "http:\/\/api.evrythng.com\/\/products\/{productId}\/redirector",
             "description": "Update a product's redirection.",
@@ -3033,11 +3033,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "22e9b8f53fe79d7ad2680976a2d11536",
+            "collectionId": "01f7e9f1e7f8efcc9756c1db23000d0f",
             "rawModeData": ""
         },
         {
-            "id": "87502d1df4de2db5c0b5f513a0d9fa6c",
+            "id": "bd41aa0c8f3ee1c5698f7d28b6ef2d4b",
             "name": "Delete a product's redirection",
             "url": "http:\/\/api.evrythng.com\/\/products\/{productId}\/redirector",
             "description": "Delete a product's redirection.",
@@ -3064,11 +3064,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "22e9b8f53fe79d7ad2680976a2d11536",
+            "collectionId": "01f7e9f1e7f8efcc9756c1db23000d0f",
             "rawModeData": ""
         },
         {
-            "id": "65bd133f99107b961299c2b03e7a746a",
+            "id": "ea4ad03adf810cc8cc1321bdcc0f32cb",
             "name": "Update multiple products",
             "url": "http:\/\/api.evrythng.com\/\/products?filter=name%3DTest*",
             "description": "Batch update Products with a `filter` query parameter.",
@@ -3095,11 +3095,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "22e9b8f53fe79d7ad2680976a2d11536",
+            "collectionId": "01f7e9f1e7f8efcc9756c1db23000d0f",
             "rawModeData": ""
         },
         {
-            "id": "f4e6cc3dab49f150440ae2389ed39abd",
+            "id": "b126bddff26305c387e0f20056f8e613",
             "name": "Create a project",
             "url": "http:\/\/api.evrythng.com\/\/projects",
             "description": "Create a new project within an account.",
@@ -3126,11 +3126,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "22e9b8f53fe79d7ad2680976a2d11536",
+            "collectionId": "01f7e9f1e7f8efcc9756c1db23000d0f",
             "rawModeData": ""
         },
         {
-            "id": "888d30d86489f093fd99040457963d6b",
+            "id": "722e556e827034935008652b0020dd85",
             "name": "Read all projects",
             "url": "http:\/\/api.evrythng.com\/\/projects",
             "description": "Read all projects.",
@@ -3149,11 +3149,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "22e9b8f53fe79d7ad2680976a2d11536",
+            "collectionId": "01f7e9f1e7f8efcc9756c1db23000d0f",
             "rawModeData": ""
         },
         {
-            "id": "bcc58eb18cd59b94da7fc402c7759a22",
+            "id": "96534619d8bc148b9ca3e5fb6896f0cf",
             "name": "Read a project",
             "url": "http:\/\/api.evrythng.com\/\/projects\/{projectId}",
             "description": "Read a project by ID",
@@ -3180,11 +3180,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "22e9b8f53fe79d7ad2680976a2d11536",
+            "collectionId": "01f7e9f1e7f8efcc9756c1db23000d0f",
             "rawModeData": ""
         },
         {
-            "id": "5f33261e00174cec29a12743478c2170",
+            "id": "25fc5eb72f5771e833f962068facc915",
             "name": "Update a project",
             "url": "http:\/\/api.evrythng.com\/\/projects\/{projectId}",
             "description": "Update a project by ID.",
@@ -3211,11 +3211,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "22e9b8f53fe79d7ad2680976a2d11536",
+            "collectionId": "01f7e9f1e7f8efcc9756c1db23000d0f",
             "rawModeData": ""
         },
         {
-            "id": "69dbcfa12da7047a2d72c3e41dc542e4",
+            "id": "f89acc01d4691a78b8cfdee2e1142d36",
             "name": "Delete a project",
             "url": "http:\/\/api.evrythng.com\/\/projects\/{projectId}",
             "description": "Delete a project by ID. This action **cannot** be reversed!",
@@ -3242,11 +3242,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "22e9b8f53fe79d7ad2680976a2d11536",
+            "collectionId": "01f7e9f1e7f8efcc9756c1db23000d0f",
             "rawModeData": ""
         },
         {
-            "id": "c7cf8aae134dea4fb985a55d9df476e4",
+            "id": "55ad87f7391a8c70b1c439124359a2f3",
             "name": "Create\/update product properties",
             "url": "http:\/\/api.evrythng.com\/\/products\/{productId}\/properties",
             "description": "Create\/update a product's properties. When a resource is created, you can specify an initial set of properties and their values. To update those properties or to add new ones, use a `PUT` request with an array of `PropertyDocument` JSON objects containing the changed fields. If the properties updated do not exist, they are created automatically by this request and no error\/notification will be returned.",
@@ -3273,11 +3273,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "22e9b8f53fe79d7ad2680976a2d11536",
+            "collectionId": "01f7e9f1e7f8efcc9756c1db23000d0f",
             "rawModeData": ""
         },
         {
-            "id": "f2fa2f29812d34732e19e31863a22cc2",
+            "id": "e82a963d517107f045b2819e4f32c2cf",
             "name": "Read product properties",
             "url": "http:\/\/api.evrythng.com\/\/products\/{productId}\/properties",
             "description": "Read all properties on a product. The returned payload is the complete array of all the properties with the last value of each.",
@@ -3304,11 +3304,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "22e9b8f53fe79d7ad2680976a2d11536",
+            "collectionId": "01f7e9f1e7f8efcc9756c1db23000d0f",
             "rawModeData": ""
         },
         {
-            "id": "9210f2e0de8431cda207661b5973f101",
+            "id": "dad86e93c12b599940342d49ea632110",
             "name": "Read a product property",
             "url": "http:\/\/api.evrythng.com\/\/products\/{productId}\/properties\/{propertyKey}",
             "description": "Read a single product property. By default, all the updates of this property are returned using pagination in a reverse history fashion (the first element of the returned array is the latest update). For accessing only a subset of all the updates to a single property, you can specify a time range using `?from=Timestamp` and `?to=Timestamp` to specify respectively the beginning and end of the time window. You will receive an array of all the property updates during this time.",
@@ -3335,11 +3335,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "22e9b8f53fe79d7ad2680976a2d11536",
+            "collectionId": "01f7e9f1e7f8efcc9756c1db23000d0f",
             "rawModeData": ""
         },
         {
-            "id": "6e60926e3a3474db49724db67c33aa59",
+            "id": "db0f35491a440d7a235628b82436ce7b",
             "name": "Update a product property",
             "url": "http:\/\/api.evrythng.com\/\/products\/{productId}\/properties\/{propertyKey}",
             "description": "Update a single property by `key`.",
@@ -3366,11 +3366,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "22e9b8f53fe79d7ad2680976a2d11536",
+            "collectionId": "01f7e9f1e7f8efcc9756c1db23000d0f",
             "rawModeData": ""
         },
         {
-            "id": "d43c314ac23d1b21d83a40b885cbad36",
+            "id": "d01164a1853f8819d49244c93cb4178d",
             "name": "Delete a product property",
             "url": "http:\/\/api.evrythng.com\/\/products\/{productId}\/properties\/{propertyKey}",
             "description": "Delete a product property. Property updates are not uniquely identified (do not have their own URL). Therefore, the only way to delete data points is to append the `?to=Timestamp` URL query parameter to specify a point in time before which all the data points will be removed. If the `?to=` parameter is not specified, ALL updates of this property will be deleted!",
@@ -3397,11 +3397,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "22e9b8f53fe79d7ad2680976a2d11536",
+            "collectionId": "01f7e9f1e7f8efcc9756c1db23000d0f",
             "rawModeData": ""
         },
         {
-            "id": "b01e7fd1ada40a33df4fb93c1f4c3d5b",
+            "id": "224f0a619ad5bcb6ffd61c4b8d8905bc",
             "name": "Create\/update Thng properties",
             "url": "http:\/\/api.evrythng.com\/\/thngs\/{thngId}\/properties",
             "description": "Create\/update Thng properties. When a resource is created, you can specify an initial set of properties and their values. To update those properties or to add new ones, use a `PUT` request with an array of `PropertyDocument` JSON objects containing the changed fields. If the properties updated do not exist, they are created automatically by this request and no error\/notification will be returned.",
@@ -3428,11 +3428,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "22e9b8f53fe79d7ad2680976a2d11536",
+            "collectionId": "01f7e9f1e7f8efcc9756c1db23000d0f",
             "rawModeData": ""
         },
         {
-            "id": "6018c697fd079a413e4ca022a80f51cd",
+            "id": "3dc58841426fe19718be45afc5fe6af0",
             "name": "Read all Thng properties",
             "url": "http:\/\/api.evrythng.com\/\/thngs\/{thngId}\/properties",
             "description": "Read all properties on a Thng.",
@@ -3459,11 +3459,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "22e9b8f53fe79d7ad2680976a2d11536",
+            "collectionId": "01f7e9f1e7f8efcc9756c1db23000d0f",
             "rawModeData": ""
         },
         {
-            "id": "f207000fc8315e2de2114b3b3fcad3c0",
+            "id": "694cc949f6b8957c43c1656419c86714",
             "name": "Update a Thng property",
             "url": "http:\/\/api.evrythng.com\/\/thngs\/{thngId}\/properties\/{propertyKey}",
             "description": "Update a single Thng property by `key`.",
@@ -3490,11 +3490,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "22e9b8f53fe79d7ad2680976a2d11536",
+            "collectionId": "01f7e9f1e7f8efcc9756c1db23000d0f",
             "rawModeData": ""
         },
         {
-            "id": "6f55ae69be2d508b6c4475b835e324d5",
+            "id": "7ce77815119200bee4ac4b73c756a88c",
             "name": "Read a Thng property",
             "url": "http:\/\/api.evrythng.com\/\/thngs\/{thngId}\/properties\/{propertyKey}",
             "description": "Read a single Thng property. By default, all the updates of this property are returned using pagination in a reverse history fashion (the first element of the returned array is the latest update). For accessing only a subset of all the updates to a single property, you can specify a time range using `?from=Timestamp` and `?to=Timestamp` to specify respectively the beginning and end of the time window. You will receive an array of all the property updates during this time.",
@@ -3521,11 +3521,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "22e9b8f53fe79d7ad2680976a2d11536",
+            "collectionId": "01f7e9f1e7f8efcc9756c1db23000d0f",
             "rawModeData": ""
         },
         {
-            "id": "00e0ce9e3dcb9486e5cd1cccdc5fedb9",
+            "id": "dacaeb86797bb813956639d6a750d58c",
             "name": "Delete a Thng property",
             "url": "http:\/\/api.evrythng.com\/\/thngs\/{thngId}\/properties\/{propertyKey}",
             "description": "Delete a Thng property. Property updates are not uniquely identified (do not have their own URL). Therefore, the only way to delete data points is to append the `?to=Timestamp` URL query parameter to specify a point in time before which all the data points will be removed. If the `?to=` parameter is not specified, ALL updates of this property will be deleted!",
@@ -3552,11 +3552,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "22e9b8f53fe79d7ad2680976a2d11536",
+            "collectionId": "01f7e9f1e7f8efcc9756c1db23000d0f",
             "rawModeData": ""
         },
         {
-            "id": "6f4b5dfbac9eb7da6b61e745d04134cf",
+            "id": "a4ed606beb9155680467b3dba91a945e",
             "name": "Update a Reactor script",
             "url": "http:\/\/api.evrythng.com\/\/projects\/{projectId}\/applications\/{applicationId}\/reactor\/script",
             "description": "Update the Reactor script for an application.",
@@ -3583,11 +3583,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "22e9b8f53fe79d7ad2680976a2d11536",
+            "collectionId": "01f7e9f1e7f8efcc9756c1db23000d0f",
             "rawModeData": ""
         },
         {
-            "id": "8f17baf535bb2f03630a8de027884f39",
+            "id": "0c18640d891e3634cf73e162d45589db",
             "name": "Read a Reactor script",
             "url": "http:\/\/api.evrythng.com\/\/projects\/{projectId}\/applications\/{applicationId}\/reactor\/script",
             "description": "Read the Reactor script for an application by ID.",
@@ -3614,11 +3614,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "22e9b8f53fe79d7ad2680976a2d11536",
+            "collectionId": "01f7e9f1e7f8efcc9756c1db23000d0f",
             "rawModeData": ""
         },
         {
-            "id": "30cb7a6cfe55fe0b918e3a3e919c5ac5",
+            "id": "0fe83f4f84231fec8402c0d34233db05",
             "name": "Read Reactor script status",
             "url": "http:\/\/api.evrythng.com\/\/projects\/{projectId}\/applications\/{applicationId}\/reactor\/script\/status",
             "description": "Read the status of a Reactor script update in progress.",
@@ -3645,11 +3645,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "22e9b8f53fe79d7ad2680976a2d11536",
+            "collectionId": "01f7e9f1e7f8efcc9756c1db23000d0f",
             "rawModeData": ""
         },
         {
-            "id": "ac339e8956ef49d8af75f1e4bb2d0815",
+            "id": "9ad504e0e3a3dfcf0abe52813de6f458",
             "name": "Read Reactor logs",
             "url": "http:\/\/api.evrythng.com\/\/projects\/{projectId}\/applications\/{applicationId}\/reactor\/logs",
             "description": "Read the Reactor logs.",
@@ -3676,11 +3676,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "22e9b8f53fe79d7ad2680976a2d11536",
+            "collectionId": "01f7e9f1e7f8efcc9756c1db23000d0f",
             "rawModeData": ""
         },
         {
-            "id": "6bdb6504288917161206dccaaf0244fb",
+            "id": "1e662c00c14ef9d95f36dbfb1f5f0c2f",
             "name": "Delete Reactor logs",
             "url": "http:\/\/api.evrythng.com\/\/projects\/{projectId}\/applications\/{applicationId}\/reactor\/logs",
             "description": "Delete the Reactor logs. To delete the Reactor logs of a specific log level you can use a `logLevel` filter.",
@@ -3707,11 +3707,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "22e9b8f53fe79d7ad2680976a2d11536",
+            "collectionId": "01f7e9f1e7f8efcc9756c1db23000d0f",
             "rawModeData": ""
         },
         {
-            "id": "de520ee08df9508191bf4b578ef59941",
+            "id": "2e47347313ec9ffc8a18066d36c276b9",
             "name": "Create a Reactor schedule",
             "url": "http:\/\/api.evrythng.com\/\/projects\/{projectId}\/applications\/{applicationId}\/reactor\/schedules",
             "description": "Create a Reactor schedule document, describing how the schedule should behave.",
@@ -3738,11 +3738,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "22e9b8f53fe79d7ad2680976a2d11536",
+            "collectionId": "01f7e9f1e7f8efcc9756c1db23000d0f",
             "rawModeData": ""
         },
         {
-            "id": "22cabea4d3a3dc4323616fd783c60400",
+            "id": "a17116e12260cb8a531f56d5faf1af34",
             "name": "Read all Reactor schedules",
             "url": "http:\/\/api.evrythng.com\/\/projects\/{projectId}\/applications\/{applicationId}\/reactor\/schedules",
             "description": "Read all Reactor schedules of the specified application.",
@@ -3769,11 +3769,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "22e9b8f53fe79d7ad2680976a2d11536",
+            "collectionId": "01f7e9f1e7f8efcc9756c1db23000d0f",
             "rawModeData": ""
         },
         {
-            "id": "fdc2cc452a973f4b728d496346671582",
+            "id": "f49205ac6af02415914f9fc12ec8f2cf",
             "name": "Read a Reactor schedule",
             "url": "http:\/\/api.evrythng.com\/\/projects\/{projectId}\/applications\/{applicationId}\/reactor\/schedules\/{scheduleId}",
             "description": "Read a single Reactor schedule by ID.",
@@ -3800,11 +3800,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "22e9b8f53fe79d7ad2680976a2d11536",
+            "collectionId": "01f7e9f1e7f8efcc9756c1db23000d0f",
             "rawModeData": ""
         },
         {
-            "id": "7f26ede84831ea1c632d709bff5d9e3f",
+            "id": "9a3d864bd23f1524269a57131c7a2bab",
             "name": "Update a Reactor schedule",
             "url": "http:\/\/api.evrythng.com\/\/projects\/{projectId}\/applications\/{applicationId}\/reactor\/schedules\/{scheduleId}",
             "description": "Update fields of an existing Reactor schedule by ID.",
@@ -3831,11 +3831,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "22e9b8f53fe79d7ad2680976a2d11536",
+            "collectionId": "01f7e9f1e7f8efcc9756c1db23000d0f",
             "rawModeData": ""
         },
         {
-            "id": "9bf4421e987110fa795dfdeef641d7a3",
+            "id": "6ff413577577c40a1c1a5d7de3a78d6c",
             "name": "Delete a Reactor schedule",
             "url": "http:\/\/api.evrythng.com\/\/projects\/{projectId}\/applications\/{applicationId}\/reactor\/schedules\/{scheduleId}",
             "description": "Delete a Reactor schedule by ID. A one-shot scheduled event (using `executeAt` instead of `cron`) will be deleted after it has elapsed, and not assigned an ID.",
@@ -3862,11 +3862,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "22e9b8f53fe79d7ad2680976a2d11536",
+            "collectionId": "01f7e9f1e7f8efcc9756c1db23000d0f",
             "rawModeData": ""
         },
         {
-            "id": "93af0ba27de103f3866d8f4ba014ea8d",
+            "id": "d424e74f796bc2c5439066670ccecf34",
             "name": "Read the account Redirector",
             "url": "http:\/\/api.evrythng.com\/\/redirector",
             "description": "Read the account-level Redirector.",
@@ -3885,11 +3885,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "22e9b8f53fe79d7ad2680976a2d11536",
+            "collectionId": "01f7e9f1e7f8efcc9756c1db23000d0f",
             "rawModeData": ""
         },
         {
-            "id": "39a19cb9d9e3883743907f0ef57a9b61",
+            "id": "6c6afb177b7ebab08251150896f0625c",
             "name": "Update the account Redirector",
             "url": "http:\/\/api.evrythng.com\/\/redirector",
             "description": "Update the account Redirector. Created if it does not exist.",
@@ -3916,11 +3916,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "22e9b8f53fe79d7ad2680976a2d11536",
+            "collectionId": "01f7e9f1e7f8efcc9756c1db23000d0f",
             "rawModeData": ""
         },
         {
-            "id": "2ae52cde41b1f78f503f08d7abc9c03d",
+            "id": "0cd5f04f73233e387331edc6a494248a",
             "name": "Read an application Redirector",
             "url": "http:\/\/api.evrythng.com\/\/projects\/{projectId}\/applications\/{applicationId}\/redirector",
             "description": "Read an application's Redirector.",
@@ -3947,11 +3947,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "22e9b8f53fe79d7ad2680976a2d11536",
+            "collectionId": "01f7e9f1e7f8efcc9756c1db23000d0f",
             "rawModeData": ""
         },
         {
-            "id": "e5eac8579b16b2afdef4eedc7af7753a",
+            "id": "4b054c823c5d429f98dde12a05cbcd9a",
             "name": "Update an application Redirector",
             "url": "http:\/\/api.evrythng.com\/\/projects\/{projectId}\/applications\/{applicationId}\/redirector",
             "description": "Update the application Redirector. Will be created if it does not exist.",
@@ -3978,11 +3978,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "22e9b8f53fe79d7ad2680976a2d11536",
+            "collectionId": "01f7e9f1e7f8efcc9756c1db23000d0f",
             "rawModeData": ""
         },
         {
-            "id": "5c28303dc53398dc19d8507eeb649e9a",
+            "id": "6d0824c8120797539619fa099320f903",
             "name": "Create an Application User role",
             "url": "http:\/\/api.evrythng.com\/\/roles",
             "description": "Create a new Application User role. Only the account owner can create new roles. You cannot create roles with the same `name` as the predefined `admin` and `none` roles. Roles `name`s are considered unique. This means two roles with different `id`s cannot share the same `name`.",
@@ -4009,11 +4009,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "22e9b8f53fe79d7ad2680976a2d11536",
+            "collectionId": "01f7e9f1e7f8efcc9756c1db23000d0f",
             "rawModeData": ""
         },
         {
-            "id": "9c2b2003e4ff4e42fce885f0a5b66798",
+            "id": "f064166b39fa60fbf43af2d1e9a23666",
             "name": "Read all roles",
             "url": "http:\/\/api.evrythng.com\/\/roles",
             "description": "Read all available roles within the account.",
@@ -4032,11 +4032,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "22e9b8f53fe79d7ad2680976a2d11536",
+            "collectionId": "01f7e9f1e7f8efcc9756c1db23000d0f",
             "rawModeData": ""
         },
         {
-            "id": "9bdc3db523835e392977bc9fa073731d",
+            "id": "a965309953c637c15d31a2ee012a9db7",
             "name": "Read a role",
             "url": "http:\/\/api.evrythng.com\/\/roles\/{roleId}",
             "description": "Read a single role by ID.",
@@ -4063,11 +4063,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "22e9b8f53fe79d7ad2680976a2d11536",
+            "collectionId": "01f7e9f1e7f8efcc9756c1db23000d0f",
             "rawModeData": ""
         },
         {
-            "id": "0a10c3489bc3ae2c4cf10ddcdddfef3d",
+            "id": "f4c870d9a41e57b1ae30d4a01f2f08a0",
             "name": "Update a role",
             "url": "http:\/\/api.evrythng.com\/\/roles\/{roleId}",
             "description": "Update a role by ID.",
@@ -4094,11 +4094,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "22e9b8f53fe79d7ad2680976a2d11536",
+            "collectionId": "01f7e9f1e7f8efcc9756c1db23000d0f",
             "rawModeData": ""
         },
         {
-            "id": "75b743f9a1cd06b84a5c8453b5727508",
+            "id": "d4fecc39b3257df71f2a2fb5311259cc",
             "name": "Delete a role",
             "url": "http:\/\/api.evrythng.com\/\/roles\/{roleId}",
             "description": "Delete a role by ID. The predefined `none` role will be assigned to all the users currently having the role about to be removed. A `userInApp` role cannot be deleted until all users with that role have been assigned a different role.",
@@ -4125,11 +4125,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "22e9b8f53fe79d7ad2680976a2d11536",
+            "collectionId": "01f7e9f1e7f8efcc9756c1db23000d0f",
             "rawModeData": ""
         },
         {
-            "id": "ca88eb66b1436f7203fb0bb078a54ec5",
+            "id": "6b9a509b5a60dbc2d267d6b54b51acc0",
             "name": "Read an Application User role's permissions",
             "url": "http:\/\/api.evrythng.com\/\/roles\/{roleId}\/permissions",
             "description": "Read an array of paths and access types that an Application User with the specified role can access.",
@@ -4156,11 +4156,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "22e9b8f53fe79d7ad2680976a2d11536",
+            "collectionId": "01f7e9f1e7f8efcc9756c1db23000d0f",
             "rawModeData": ""
         },
         {
-            "id": "1f0d1f69daea4b4fd9f163b51a9fcfcc",
+            "id": "5c3702a375e3a2769a6e1787b730b8f7",
             "name": "Update role permissions",
             "url": "http:\/\/api.evrythng.com\/\/roles\/{roleId}\/permissions",
             "description": "Update the set of permissions for a role with a new set. The payload replaces the old set of permissions for this role. This must include any existing permissions, otherwise they will be deleted if not present in the new payload. To remove a permission, simply omit it in the payload after reading from the role initially.",
@@ -4187,11 +4187,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "22e9b8f53fe79d7ad2680976a2d11536",
+            "collectionId": "01f7e9f1e7f8efcc9756c1db23000d0f",
             "rawModeData": ""
         },
         {
-            "id": "93e18a78a39a27e70f037bd4c36e782d",
+            "id": "ea341d3cef94b6013a637a83f9372066",
             "name": "Create a schema",
             "url": "http:\/\/api.evrythng.com\/\/schemas",
             "description": "Create a new schema resource.",
@@ -4218,11 +4218,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "22e9b8f53fe79d7ad2680976a2d11536",
+            "collectionId": "01f7e9f1e7f8efcc9756c1db23000d0f",
             "rawModeData": ""
         },
         {
-            "id": "67b06038e2456370413e31e06f9ef410",
+            "id": "e4644dcaa5e1b64fbd7124b6c03b6e99",
             "name": "Read all schemas",
             "url": "http:\/\/api.evrythng.com\/\/schemas",
             "description": "Read all schemas.",
@@ -4241,11 +4241,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "22e9b8f53fe79d7ad2680976a2d11536",
+            "collectionId": "01f7e9f1e7f8efcc9756c1db23000d0f",
             "rawModeData": ""
         },
         {
-            "id": "910ca1963f47a1c9adaa1a476322cf0a",
+            "id": "57544323426dbbb9bfd5bd90bb63ca34",
             "name": "Read a schema",
             "url": "http:\/\/api.evrythng.com\/\/schemas\/{schemaId}",
             "description": "Read a single schema by ID.",
@@ -4272,11 +4272,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "22e9b8f53fe79d7ad2680976a2d11536",
+            "collectionId": "01f7e9f1e7f8efcc9756c1db23000d0f",
             "rawModeData": ""
         },
         {
-            "id": "2c9810549b9fe1d26b0ad950ad4573cf",
+            "id": "cda6552ce54ebe97b9345dd016ea5994",
             "name": "Update a schema",
             "url": "http:\/\/api.evrythng.com\/\/schemas\/{schemaId}",
             "description": "Update a single schema by ID.",
@@ -4303,11 +4303,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "22e9b8f53fe79d7ad2680976a2d11536",
+            "collectionId": "01f7e9f1e7f8efcc9756c1db23000d0f",
             "rawModeData": ""
         },
         {
-            "id": "585b74cab1c371b266dd30961156695e",
+            "id": "71b09b15d04882692160142d8d45f805",
             "name": "Delete a schema",
             "url": "http:\/\/api.evrythng.com\/\/schemas\/{schemaId}",
             "description": "Delete a single schema by ID.",
@@ -4334,11 +4334,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "22e9b8f53fe79d7ad2680976a2d11536",
+            "collectionId": "01f7e9f1e7f8efcc9756c1db23000d0f",
             "rawModeData": ""
         },
         {
-            "id": "c999c2e4c7999a72c8499fc472707cd9",
+            "id": "d3ac4d2a9c0e5391fa6bdbd0c3430cb6",
             "name": "Create a batch task",
             "url": "http:\/\/api.evrythng.com\/\/batches\/{batchId}\/tasks",
             "description": "Create a task on the specified batch.",
@@ -4365,11 +4365,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "22e9b8f53fe79d7ad2680976a2d11536",
+            "collectionId": "01f7e9f1e7f8efcc9756c1db23000d0f",
             "rawModeData": ""
         },
         {
-            "id": "326a95691025976855a3813f92730a16",
+            "id": "2a00c6dee1dbe0e29332f9c98c699cc0",
             "name": "Read all batch tasks",
             "url": "http:\/\/api.evrythng.com\/\/batches\/{batchId}\/tasks",
             "description": "Read all tasks for a given batch.",
@@ -4396,11 +4396,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "22e9b8f53fe79d7ad2680976a2d11536",
+            "collectionId": "01f7e9f1e7f8efcc9756c1db23000d0f",
             "rawModeData": ""
         },
         {
-            "id": "5b3475f162885b2e2166eca9a239739b",
+            "id": "65cb2003cbc250c2271fcda4ddd1e0af",
             "name": "Read a batch task",
             "url": "http:\/\/api.evrythng.com\/\/batches\/{batchId}\/tasks\/{taskId}",
             "description": "Read a single task for a given batch.",
@@ -4427,11 +4427,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "22e9b8f53fe79d7ad2680976a2d11536",
+            "collectionId": "01f7e9f1e7f8efcc9756c1db23000d0f",
             "rawModeData": ""
         },
         {
-            "id": "ec4b5c401005870004e63ff9075c28bb",
+            "id": "b82f8a8961861b19d1b67fe9616c2ce0",
             "name": "Read task error logs",
             "url": "http:\/\/api.evrythng.com\/\/batches\/{batchId}\/tasks\/{taskId}\/logs",
             "description": "Read the error logs, if any, for a given task. If not errors occured, there will be no logs.",
@@ -4458,11 +4458,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "22e9b8f53fe79d7ad2680976a2d11536",
+            "collectionId": "01f7e9f1e7f8efcc9756c1db23000d0f",
             "rawModeData": ""
         },
         {
-            "id": "0a3ea4254e31e290b2e7017f6812e973",
+            "id": "bf3b975957f897ce8bc743d850e4b2de",
             "name": "Create a Thng",
             "url": "http:\/\/api.evrythng.com\/\/thngs",
             "description": "Create a new Thng.",
@@ -4489,11 +4489,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "22e9b8f53fe79d7ad2680976a2d11536",
+            "collectionId": "01f7e9f1e7f8efcc9756c1db23000d0f",
             "rawModeData": ""
         },
         {
-            "id": "4de3c5588842216149204e45bd92b57f",
+            "id": "fd3834b17375fd4160ab25517c59c08c",
             "name": "Read all Thngs",
             "url": "http:\/\/api.evrythng.com\/\/thngs",
             "description": "Read all Thngs.",
@@ -4512,11 +4512,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "22e9b8f53fe79d7ad2680976a2d11536",
+            "collectionId": "01f7e9f1e7f8efcc9756c1db23000d0f",
             "rawModeData": ""
         },
         {
-            "id": "d9e29ba9e5eebced02b3a8a7dd68cb5c",
+            "id": "073b1bc42e54c25234dbede2f21e22b4",
             "name": "Read a Thng",
             "url": "http:\/\/api.evrythng.com\/\/thngs\/{thngId}",
             "description": "Read a single Thng by ID.",
@@ -4543,11 +4543,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "22e9b8f53fe79d7ad2680976a2d11536",
+            "collectionId": "01f7e9f1e7f8efcc9756c1db23000d0f",
             "rawModeData": ""
         },
         {
-            "id": "35259afb58c2e82a6fb2cbe810a844fb",
+            "id": "6be75588b8f9ae1222dff9322892b382",
             "name": "Update a Thng",
             "url": "http:\/\/api.evrythng.com\/\/thngs\/{thngId}",
             "description": "Update a Thng by ID. Only the basic fields (`name`, `description`, `product`, `identifiers`, `tags`, and `customFields`) can be updated in this manner. Properties, location and collections must be updated via their respective `\/thngs\/:thngId\/location`, `\/thngs\/:thngId\/properties` and `\/collections\/:collectionId\/thngs` endpoints.",
@@ -4574,11 +4574,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "22e9b8f53fe79d7ad2680976a2d11536",
+            "collectionId": "01f7e9f1e7f8efcc9756c1db23000d0f",
             "rawModeData": ""
         },
         {
-            "id": "abb5e8baea7dcb72b70dd79fd6a4ee5e",
+            "id": "1c6e43fca009ea4712aa7b039ee3ee83",
             "name": "Delete a Thng",
             "url": "http:\/\/api.evrythng.com\/\/thngs\/{thngId}",
             "description": "Delete a Thng by ID.",
@@ -4605,11 +4605,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "22e9b8f53fe79d7ad2680976a2d11536",
+            "collectionId": "01f7e9f1e7f8efcc9756c1db23000d0f",
             "rawModeData": ""
         },
         {
-            "id": "eccf9f3ec4bdc478776e7f784bcd30b1",
+            "id": "a47c43f764e7622c01f17a72a99df515",
             "name": "Create a Thng's redirection",
             "url": "http:\/\/api.evrythng.com\/\/thngs\/{thngId}\/redirector",
             "description": "Create a Thng's redirection.",
@@ -4636,11 +4636,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "22e9b8f53fe79d7ad2680976a2d11536",
+            "collectionId": "01f7e9f1e7f8efcc9756c1db23000d0f",
             "rawModeData": ""
         },
         {
-            "id": "157556a355b62be340669c0eae959704",
+            "id": "2c2b3ff2b3dd0abccc2c313dc9918e3f",
             "name": "Read a Thng's redirection",
             "url": "http:\/\/api.evrythng.com\/\/thngs\/{thngId}\/redirector",
             "description": "Read a Thng's redirection.",
@@ -4667,11 +4667,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "22e9b8f53fe79d7ad2680976a2d11536",
+            "collectionId": "01f7e9f1e7f8efcc9756c1db23000d0f",
             "rawModeData": ""
         },
         {
-            "id": "ca06778be059a47e4fdad45e5f331ba4",
+            "id": "e51db2f1c3d25d27e6fd9f1b6583b04e",
             "name": "Update a Thng's redirection",
             "url": "http:\/\/api.evrythng.com\/\/thngs\/{thngId}\/redirector",
             "description": "Update a Thng's redirection.",
@@ -4698,11 +4698,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "22e9b8f53fe79d7ad2680976a2d11536",
+            "collectionId": "01f7e9f1e7f8efcc9756c1db23000d0f",
             "rawModeData": ""
         },
         {
-            "id": "da153324531ed53abd0ce3483efac9bf",
+            "id": "9d7b6d7c7e1a4407fbf7639c44a1dacb",
             "name": "Delete a Thng's redirection",
             "url": "http:\/\/api.evrythng.com\/\/thngs\/{thngId}\/redirector",
             "description": "Delete a Thng's redirection.",
@@ -4729,11 +4729,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "22e9b8f53fe79d7ad2680976a2d11536",
+            "collectionId": "01f7e9f1e7f8efcc9756c1db23000d0f",
             "rawModeData": ""
         },
         {
-            "id": "50a2caf07f7068302820fcb69fcef218",
+            "id": "3236a1bb895d08ba15e0362d72991751",
             "name": "Update multiple Thngs",
             "url": "http:\/\/api.evrythng.com\/\/thngs?filter=tags%3D:tags",
             "description": "Batch update Thngs with a filter query parameter.",
@@ -4760,11 +4760,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "22e9b8f53fe79d7ad2680976a2d11536",
+            "collectionId": "01f7e9f1e7f8efcc9756c1db23000d0f",
             "rawModeData": ""
         },
         {
-            "id": "5d82558d6df33038d01cb29112af8234",
+            "id": "09e78184a35737a5fbb5c7b2c7e4faa8",
             "name": "Read a Thng's location",
             "url": "http:\/\/api.evrythng.com\/\/thngs\/{thngId}\/location",
             "description": "Read a Thng's location history.",
@@ -4791,11 +4791,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "22e9b8f53fe79d7ad2680976a2d11536",
+            "collectionId": "01f7e9f1e7f8efcc9756c1db23000d0f",
             "rawModeData": ""
         },
         {
-            "id": "07d2b711db83d3ecd1a18faf4279c3b2",
+            "id": "128e8aa6feef2fa96aa4b6c54f4586ee",
             "name": "Update a Thng's location",
             "url": "http:\/\/api.evrythng.com\/\/thngs\/{thngId}\/location",
             "description": "Update a Thng's location. The payload must always be an array of `LocationDocument` objects, which allows you to send several locations (with different timestamps each) in a single request. This is useful when a device wants to update a path cached over a certain period of time at once. An example would be a taxi that updates the whole set of locations it has been through once per hour instead of sending each GPS sensor reading individually.",
@@ -4822,11 +4822,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "22e9b8f53fe79d7ad2680976a2d11536",
+            "collectionId": "01f7e9f1e7f8efcc9756c1db23000d0f",
             "rawModeData": ""
         },
         {
-            "id": "5ca334944de3b0507c6c5e8be7806d64",
+            "id": "5e82de95e3bad81da14fcfaab6d7a076",
             "name": "Delete a Thng location history",
             "url": "http:\/\/api.evrythng.com\/\/thngs\/{thngId}\/location",
             "description": "Delete a Thng's location history. If the `?to=Timestamp` query parameter with timestamp is not specified, all history for this property will be deleted.",
@@ -4853,11 +4853,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "22e9b8f53fe79d7ad2680976a2d11536",
+            "collectionId": "01f7e9f1e7f8efcc9756c1db23000d0f",
             "rawModeData": ""
         },
         {
-            "id": "acb6b9a766834db12caf8012e16ae5f9",
+            "id": "f34cc0ac0446b7b309f92c9751ba9023",
             "name": "Create a Thng action",
             "url": "http:\/\/api.evrythng.com\/\/thngs\/{thngId}\/actions\/{actionType}",
             "description": "Create an action on a Thng.",
@@ -4884,11 +4884,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "22e9b8f53fe79d7ad2680976a2d11536",
+            "collectionId": "01f7e9f1e7f8efcc9756c1db23000d0f",
             "rawModeData": ""
         },
         {
-            "id": "678c3892c49b49b3d6f822f21e7b0058",
+            "id": "e07eedd8d2b978c9d8a8c8fcb84c004e",
             "name": "Read all Thng actions",
             "url": "http:\/\/api.evrythng.com\/\/thngs\/{thngId}\/actions\/{actionType}",
             "description": "Read all actions on a Thng.",
@@ -4915,11 +4915,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "22e9b8f53fe79d7ad2680976a2d11536",
+            "collectionId": "01f7e9f1e7f8efcc9756c1db23000d0f",
             "rawModeData": ""
         },
         {
-            "id": "3a29631c01cc53d3803b14888afa72cf",
+            "id": "ddea3fe02923e5db23013e1145d79dbc",
             "name": "Read a Thng action",
             "url": "http:\/\/api.evrythng.com\/\/thngs\/{thngId}\/actions\/{actionType}\/{actionId}",
             "description": "Read an action on a Thng by ID.",
@@ -4946,11 +4946,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "22e9b8f53fe79d7ad2680976a2d11536",
+            "collectionId": "01f7e9f1e7f8efcc9756c1db23000d0f",
             "rawModeData": ""
         },
         {
-            "id": "dad7ffe2b1068d5411e495c4f3c93792",
+            "id": "2f1ed1df07f74cdb49dd8da868642b82",
             "name": "Create a Device API Key",
             "url": "http:\/\/api.evrythng.com\/\/auth\/evrythng\/thngs",
             "description": "Create a Device API key for a Thng to manage its own data. A Device API key can only be created by Application Users or Operators. If called multiple times for the same Thng, the existing API key will be returned (a new one will not be generated). If you want to create a new API key for a Thng, you must delete the existing one first.",
@@ -4977,11 +4977,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "22e9b8f53fe79d7ad2680976a2d11536",
+            "collectionId": "01f7e9f1e7f8efcc9756c1db23000d0f",
             "rawModeData": ""
         },
         {
-            "id": "324002c6308d0cb742bfa3b2fc3c38b6",
+            "id": "6ad3bfddc88bec353ed7997710ce6216",
             "name": "Read a Device API Key",
             "url": "http:\/\/api.evrythng.com\/\/auth\/evrythng\/thngs\/{thngId}",
             "description": "Retrieve a Device API key with a Thng's ID.",
@@ -5008,11 +5008,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "22e9b8f53fe79d7ad2680976a2d11536",
+            "collectionId": "01f7e9f1e7f8efcc9756c1db23000d0f",
             "rawModeData": ""
         },
         {
-            "id": "ba853ab26102a8c9f111e3eebe0c19b1",
+            "id": "8678166ead0b37aa088ead7e83d76ee0",
             "name": "Delete a Device API Key",
             "url": "http:\/\/api.evrythng.com\/\/auth\/evrythng\/thngs\/{thngId}",
             "description": "Delete a Device API key to revoke access.",
@@ -5039,7 +5039,7 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "22e9b8f53fe79d7ad2680976a2d11536",
+            "collectionId": "01f7e9f1e7f8efcc9756c1db23000d0f",
             "rawModeData": ""
         }
     ]
