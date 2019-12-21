@@ -1,5 +1,5 @@
 {
-    "id": "8a43d87b1513203a21b1d4f9936f83fa",
+    "id": "46500a64e31c8c53fc80dd0d59a0a062",
     "name": "EVRYTHNG",
     "description": null,
     "auth": null,
@@ -10,7 +10,7 @@
     "folders": [],
     "requests": [
         {
-            "id": "180954e6018e872d0edab39f8d16a3c2",
+            "id": "d82bd2e673027498acac1e9b1bba7b27",
             "name": "\/thngs (O)",
             "url": "httpsexample.com\/\/thngs",
             "description": "OPERATOR reads the list of all thngs in the account.",
@@ -44,11 +44,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "8a43d87b1513203a21b1d4f9936f83fa",
+            "collectionId": "46500a64e31c8c53fc80dd0d59a0a062",
             "rawModeData": ""
         },
         {
-            "id": "af548b773197c76fb11bfc61f31d658d",
+            "id": "3cd2da15ff7af9b9e85eeb4404cbd263",
             "name": "\/thngs (O)",
             "url": "httpsexample.com\/\/thngs",
             "description": "Creates a thng that is visible by no Applications",
@@ -89,11 +89,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "8a43d87b1513203a21b1d4f9936f83fa",
+            "collectionId": "46500a64e31c8c53fc80dd0d59a0a062",
             "rawModeData": ""
         },
         {
-            "id": "ac1f8001c77b78f675a59ff7128cb17a",
+            "id": "edde1588b7caea015f5fb0378886bd0c",
             "name": "\/products\/{id} (O)",
             "url": "httpsexample.com\/\/products\/{PROD_ID}",
             "description": "OPERATOR reads a specific product.",
@@ -134,11 +134,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "8a43d87b1513203a21b1d4f9936f83fa",
+            "collectionId": "46500a64e31c8c53fc80dd0d59a0a062",
             "rawModeData": ""
         },
         {
-            "id": "1c6bf434793ec583aef3a89347624fe6",
+            "id": "d5a9017e0bcad148d90b826e346e08f7",
             "name": "\/auth\/evrythng\/users (A)",
             "url": "httpsexample.com\/\/auth\/evrythng\/users",
             "description": "APP creates a new EVRYTHNG user in it (using email\/password).",
@@ -179,11 +179,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "8a43d87b1513203a21b1d4f9936f83fa",
+            "collectionId": "46500a64e31c8c53fc80dd0d59a0a062",
             "rawModeData": ""
         },
         {
-            "id": "91ba9f674ccd762df299120b2f065e27",
+            "id": "02049ca76b2423f4864bb68f0735e259",
             "name": "\/users\/{id} (O)",
             "url": "httpsexample.com\/\/users\/{USER_ID}",
             "description": "OPERATOR reads data a specific user.",
@@ -224,11 +224,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "8a43d87b1513203a21b1d4f9936f83fa",
+            "collectionId": "46500a64e31c8c53fc80dd0d59a0a062",
             "rawModeData": ""
         },
         {
-            "id": "701ee88b361dc2c3d90659b367b686c9",
+            "id": "b7fa02cc390fee5ad4c4e2f7f8183080",
             "name": "\/user\/{id}\/validate (A)",
             "url": "httpsexample.com\/\/auth\/evrythng\/users\/{USER_ID}\/validate",
             "description": "APP validates a user (which can then login & out).",
@@ -276,11 +276,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "8a43d87b1513203a21b1d4f9936f83fa",
+            "collectionId": "46500a64e31c8c53fc80dd0d59a0a062",
             "rawModeData": ""
         },
         {
-            "id": "098106185a5938546888465c0a9cb623",
+            "id": "f7c4b5b39c192309d4b1d42434d63c4d",
             "name": "\/products (A)",
             "url": "httpsexample.com\/\/products",
             "description": "APP Reads the list of all products visible.",
@@ -314,11 +314,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "8a43d87b1513203a21b1d4f9936f83fa",
+            "collectionId": "46500a64e31c8c53fc80dd0d59a0a062",
             "rawModeData": ""
         },
         {
-            "id": "e2c9027e409cf477c2ff083a98eb17de",
+            "id": "585408bff042cbd4d88ba612372f0c3d",
             "name": "\/products (O)",
             "url": "httpsexample.com\/\/products",
             "description": "OPERATOR creates a product visible in **NO** applications.",
@@ -359,11 +359,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "8a43d87b1513203a21b1d4f9936f83fa",
+            "collectionId": "46500a64e31c8c53fc80dd0d59a0a062",
             "rawModeData": ""
         },
         {
-            "id": "9519d70470f20fe6022e7563f9b08fd9",
+            "id": "ad30ba87ab95be2c7d5139bcf9fbc4a8",
             "name": "\/actions\/scans (U)",
             "url": "httpsexample.com\/\/actions\/scans",
             "description": "**USER** creates a \"scan\" action on a thng.\n\n**ATTENTION -->** use a valid thng ID in the payload!",
@@ -404,11 +404,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "8a43d87b1513203a21b1d4f9936f83fa",
+            "collectionId": "46500a64e31c8c53fc80dd0d59a0a062",
             "rawModeData": ""
         },
         {
-            "id": "790b65e007000053a6168dd48eb3ecb6",
+            "id": "dc3334298ca870bea2a93dfc4e1fb7cf",
             "name": "\/actions?project={id} (O)",
             "url": "httpsexample.com\/\/actions",
             "description": "**OPERATOR** returns all the action types in the scope of an Application.",
@@ -449,11 +449,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "8a43d87b1513203a21b1d4f9936f83fa",
+            "collectionId": "46500a64e31c8c53fc80dd0d59a0a062",
             "rawModeData": ""
         },
         {
-            "id": "a961cf60c1ea4e450e453b1b8d09a078",
+            "id": "43a36813832fd541bc887b3118f3559c",
             "name": "\/actions?project={id} (O)",
             "url": "httpsexample.com\/\/actions",
             "description": "**OPERATOR** creates a new custom action type for app ID (visible only by that app).",
@@ -501,11 +501,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "8a43d87b1513203a21b1d4f9936f83fa",
+            "collectionId": "46500a64e31c8c53fc80dd0d59a0a062",
             "rawModeData": ""
         },
         {
-            "id": "df51c97f57f4a0076560f8526c8fbea0",
+            "id": "5026b003cdc01440464d1200b50625cb",
             "name": "\/applications\/ (O)",
             "url": "httpsexample.com\/\/projects\/{PROJECT_ID}\/applications\/",
             "description": "OPERATOR creates a new application.",
@@ -553,11 +553,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "8a43d87b1513203a21b1d4f9936f83fa",
+            "collectionId": "46500a64e31c8c53fc80dd0d59a0a062",
             "rawModeData": ""
         },
         {
-            "id": "98264c849d4b94bd26ebe158ee516080",
+            "id": "23e11ffe7be7787db65f15d0a7a6aeb8",
             "name": "\/projects\/{id} (O)",
             "url": "httpsexample.com\/\/projects\/{PROJECT_ID}",
             "description": "OPERATOR Reads a Specific Project.",
@@ -598,11 +598,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "8a43d87b1513203a21b1d4f9936f83fa",
+            "collectionId": "46500a64e31c8c53fc80dd0d59a0a062",
             "rawModeData": ""
         },
         {
-            "id": "d0a85b3d2d5bb55333bb8adce151b5a1",
+            "id": "548293f9f1c02b3a4acd941a6dcde083",
             "name": "\/users\/{id}\/status (O)",
             "url": "httpsexample.com\/\/users\/{USER_ID}\/status",
             "description": "OPERATOR gets the status of a specific user.",
@@ -643,11 +643,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "8a43d87b1513203a21b1d4f9936f83fa",
+            "collectionId": "46500a64e31c8c53fc80dd0d59a0a062",
             "rawModeData": ""
         },
         {
-            "id": "82247af577a9c6379e2c795c0b8b7874",
+            "id": "1f41372675fdf26c0db475568c4376e1",
             "name": "\/auth\/evrythng (A)",
             "url": "httpsexample.com\/\/auth\/evrythng\/",
             "description": "APP logs in an existing (and activated) user (with email\/password).",
@@ -688,11 +688,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "8a43d87b1513203a21b1d4f9936f83fa",
+            "collectionId": "46500a64e31c8c53fc80dd0d59a0a062",
             "rawModeData": ""
         },
         {
-            "id": "3c42b7a8d2fc3b3df2ab155da140e2e8",
+            "id": "d32f37fafe99e65b1224ae50ffd91f07",
             "name": "\/projects\/ (O)",
             "url": "httpsexample.com\/\/projects\/",
             "description": "OPERATOR reads the list of all Projects.",
@@ -726,11 +726,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "8a43d87b1513203a21b1d4f9936f83fa",
+            "collectionId": "46500a64e31c8c53fc80dd0d59a0a062",
             "rawModeData": ""
         },
         {
-            "id": "0d31e21a82da8f58205b312c2727ff51",
+            "id": "714ebb98deb0a22496f0fdf8cfb1ac86",
             "name": "\/projects\/ (O)",
             "url": "httpsexample.com\/\/projects\/",
             "description": "OPERATOR creates a new project.",
@@ -771,11 +771,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "8a43d87b1513203a21b1d4f9936f83fa",
+            "collectionId": "46500a64e31c8c53fc80dd0d59a0a062",
             "rawModeData": ""
         },
         {
-            "id": "b656d18bd472b237a7133b5273ab88c2",
+            "id": "b64c12476ef2750323d1ad2959de57d0",
             "name": "\/users (O)",
             "url": "httpsexample.com\/\/users",
             "description": "OPERATOR gets the list of all users of the engine.",
@@ -809,11 +809,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "8a43d87b1513203a21b1d4f9936f83fa",
+            "collectionId": "46500a64e31c8c53fc80dd0d59a0a062",
             "rawModeData": ""
         },
         {
-            "id": "b33f17c177b3addf2e2282cdd62bc8e8",
+            "id": "d750d1a92596cf3078567b44c7b5c718",
             "name": "\/applications\/{id} (O)",
             "url": "httpsexample.com\/\/projects\/{PROJECT_ID}\/applications\/{APP_ID}",
             "description": "OPERATOR reads a specific application.",
@@ -861,11 +861,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "8a43d87b1513203a21b1d4f9936f83fa",
+            "collectionId": "46500a64e31c8c53fc80dd0d59a0a062",
             "rawModeData": ""
         },
         {
-            "id": "745295a8bf966c1b40cae9dc84aa3739",
+            "id": "7a2814a532027a7cd78a8b1e3b0c605f",
             "name": "\/thngs\/{id}\/location (U)",
             "url": "httpsexample.com\/\/thngs\/{THNG_ID}\/location",
             "description": "USER updates the location of a thng.",
@@ -913,11 +913,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "8a43d87b1513203a21b1d4f9936f83fa",
+            "collectionId": "46500a64e31c8c53fc80dd0d59a0a062",
             "rawModeData": ""
         },
         {
-            "id": "e024811cad101b58508b9bc0afba7baf",
+            "id": "dec2beb8c4a37439b34412a327efd8b8",
             "name": "\/auth\/all\/logout (U)",
             "url": "httpsexample.com\/\/auth\/all\/logout",
             "description": "USER logs himself out (which renders the user API Key invalid).",
@@ -951,7 +951,7 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "8a43d87b1513203a21b1d4f9936f83fa",
+            "collectionId": "46500a64e31c8c53fc80dd0d59a0a062",
             "rawModeData": ""
         }
     ]
